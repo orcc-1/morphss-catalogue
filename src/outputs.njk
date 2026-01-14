@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Outputs
+permalink: /outputs/
+---
+<nav class="breadcrumb">
+  <a href="/">Catalogue</a> &gt; <a href="/outputs/">Outputs</a>
+</nav>
+
+<section class="outputs-page">
+  <div class="intro">
+    <p>These outputs were selected by our team as examples of exemplary open research practices in HSS disciplines. We invite the authors of these outputs to contribute a short blogpost on what openness means to them.</p>
+  </div>
+
+  <section class="outputs-section">
+    <h2 class="section-heading">OUTPUTS</h2>
+    
+    <ul class="output-list">
+      {% for output in collections.outputs %}
+      <li class="output-item">
+        <p class="citation">{{ output.data.citation | safe }}</p>
+        {% if output.data.doi %}
+        <p class="doi"><a href="https://doi.org/{{ output.data.doi }}">https://doi.org/{{ output.data.doi }}</a>.</p>
+        {% endif %}
+        {% if output.data.tags %}
+        <ul class="output-tags">
+          {% for tag in output.data.tags %}
+          <li><span class="tag-dot"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</section>
+

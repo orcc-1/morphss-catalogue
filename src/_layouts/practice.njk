@@ -1,0 +1,68 @@
+---
+layout: base.njk
+---
+<nav class="breadcrumb">
+  <a href="/">Catalogue</a> &gt; <a href="/practices/">Practices</a> &gt; {{ title }}
+</nav>
+
+<article class="practice-page">
+  <div class="practice-content">
+    <header class="practice-header">
+      <h1>{{ title }}</h1>
+      {% if lastUpdated %}
+      <p class="last-updated">
+        <strong>Last Updated</strong> {{ lastUpdated | formatDate }} 
+        <a href="#versions" class="show-versions">Show Versions</a>
+      </p>
+      {% endif %}
+    </header>
+    
+    <section class="description">
+      <h2>DESCRIPTION</h2>
+      {{ content | safe }}
+    </section>
+  </div>
+  
+  <aside class="practice-sidebar">
+    {% if img %}
+    <figure class="practice-image">
+      <img src="{{ img }}" alt="{{ title }}">
+      {% if imgCaption %}
+      <figcaption>{{ imgCaption }}</figcaption>
+      {% endif %}
+    </figure>
+    {% endif %}
+    
+    <section class="examples">
+      <h2>EXAMPLES</h2>
+      {% set relatedOutputs = collections.outputs | getOutputsByPractice(slug) %}
+      {% if relatedOutputs.length > 0 %}
+        <ul class="output-list">
+        {% for output in relatedOutputs %}
+          <li class="output-item">
+            <p class="citation">{{ output.data.citation | safe }}</p>
+            {% if output.data.doi %}
+            <p class="doi"><a href="https://doi.org/{{ output.data.doi }}">https://doi.org/{{ output.data.doi }}</a>.</p>
+            {% endif %}
+            {% if output.data.tags %}
+            <ul class="output-tags">
+              {% for tag in output.data.tags %}
+              <li><span class="tag-dot"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% else %}
+        <p>No examples yet.</p>
+      {% endif %}
+    </section>
+  </aside>
+</article>
+
+<section id="versions" class="versions-section" style="display: none;">
+  <h2>Version History</h2>
+  <!-- Version history would be rendered here -->
+</section>
+

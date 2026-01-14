@@ -1,0 +1,13 @@
+{
+  "name": "ohss-catalogue",
+  "version": "1.0.0",
+  "description": "Catalogue of Open Research Practices in the Arts, Humanities, and Social Sciences",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
+

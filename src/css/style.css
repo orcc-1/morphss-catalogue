@@ -1,0 +1,359 @@
+/* CSS Variables */
+:root {
+  --color-primary: #006B4E;
+  --color-primary-dark: #005540;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-background: #ffffff;
+  --color-card-bg: #d9d9d9;
+  --color-border: transparent;
+  --color-link: #006B4E;
+  --font-family: Arial, Helvetica, sans-serif;
+  --container-width: 1400px;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-xxl: 3rem;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  width: 100%;
+}
+
+/* Header */
+.site-header {
+  padding: var(--spacing-lg) 0;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.site-title a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: underline;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  padding: var(--spacing-md) 0;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.breadcrumb a {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+/* Main content area */
+main {
+  padding: var(--spacing-xl) 0;
+}
+
+/* Intro section */
+.intro {
+  margin-bottom: var(--spacing-xxl);
+  line-height: 1.4;
+}
+
+.intro p {
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Section headings */
+.section-heading {
+  margin-bottom: var(--spacing-lg);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Practices Grid */
+.practices-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+}
+
+.practice-card {
+  background-color: var(--color-card-bg);
+  padding: var(--spacing-lg);
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.practice-card:hover {
+  background-color: #c9c9c9;
+}
+
+.practice-card .example-count {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.practice-card:hover .example-count {
+  opacity: 1;
+}
+
+.practice-card h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Outputs Page */
+.outputs-page .intro {
+  margin-bottom: var(--spacing-xl);
+}
+
+.output-list {
+  list-style: none;
+}
+
+.output-item {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: #fffdf5;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.output-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.output-item .citation {
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.4;
+}
+
+.output-item .doi {
+  margin-bottom: var(--spacing-sm);
+}
+
+.output-item .doi a {
+  word-break: break-all;
+}
+
+.output-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+  font-size: 0.85rem;
+}
+
+.output-tags li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.output-tags a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.output-tags a:hover {
+  color: var(--color-text);
+}
+
+.tag-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Practice Page - Two Column Layout */
+.practice-page {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: var(--spacing-xxl);
+}
+
+.practice-content {
+  max-width: 100%;
+}
+
+.practice-header h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: var(--spacing-md);
+}
+
+.last-updated {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xl);
+}
+
+.last-updated strong {
+  font-weight: 600;
+}
+
+.show-versions {
+  margin-left: var(--spacing-sm);
+}
+
+.description h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-md);
+}
+
+.description p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.4;
+}
+
+/* Practice Sidebar */
+.practice-sidebar {
+  position: sticky;
+  top: var(--spacing-lg);
+  align-self: start;
+}
+
+.practice-image {
+  margin-bottom: var(--spacing-xl);
+}
+
+.practice-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.practice-image figcaption {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-top: var(--spacing-sm);
+  font-style: italic;
+}
+
+.examples h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-md);
+}
+
+.examples .output-list {
+  font-size: 0.9rem;
+}
+
+.examples .output-item {
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-md);
+}
+
+.examples .citation {
+  font-size: 0.9rem;
+}
+
+.examples .doi {
+  font-size: 0.85rem;
+}
+
+.examples .output-tags {
+  font-size: 0.75rem;
+}
+
+/* Footer */
+.site-footer {
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-xxl);
+}
+
+.site-footer p {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .practices-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .practice-page {
+    grid-template-columns: 1fr;
+  }
+  
+  .practice-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .practices-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .site-title {
+    font-size: 1.2rem;
+  }
+}
+

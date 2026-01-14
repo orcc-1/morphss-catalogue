@@ -1,0 +1,67 @@
+---
+title: "Sharing Creatively Refigured Data"
+slug: sharing-creatively-refigured-data
+img: /images/creative-data.jpg
+imgCaption: "caption here"
+lastUpdated: 2026-01-14
+layout: practice.njk
+---
+
+By 'sharing creatively refigured data' we refer to practices derived from arts-based research involving sharing qualitative data via creative formats to amplify participant voices and increase possibilities for engagement and impact among academic and wider communities, including practitioners and policymakers. Present in social sciences disciplines such as education, social work and sociology, and adjacent disciplines such as counselling and health, these practices include a range of creative modes such as ethnodrama - the presentation of ethnographic data via screenplay and/or performance (Saldana, 2003), with examples documented by Berbary (2011) and Sangha et al. (2012) - and other instances of research-based theatre (Cox et al., 2023). In this brief description, we focus on presentations of qualitative data via research poetry.
+
+Categorised as a form of poetic inquiry (Prendergast, 2009) and sometimes also referred to as data poetry, poetic transcription or found poetry (Holland-Batt & Miller, 2023, 1647), research poetry is poetry created using qualitative data such as interview transcripts by selecting from, arranging and re-presenting participants' words in ways that may generate new insights and facilitate different modes of engagement. Research poetry typically assumes the form of free verse, ungoverned by existing rhythmic, metric or stanzaic forms (Meyer, 2024, n.p.), though some researchers (e.g. Furman, 2006) have experimented with existing poetic forms. It can be published or circulated as a standalone output, or in the context of an academic article or discussion that situates and contextualises it. The journal Qualitative Inquiry is an especially receptive venue for such work; additional field-specific journals that host research poetry are listed by Lahman et al. (2019, 216). Beyond academic venues, research poetry may be disseminated to a variety of audiences via diverse means; of research poems using the words of informally housed persons in Aotearoa/New Zealand, for instance, Carroll et al. note that these were 'returned to participants for their comments and later recorded on to a compact disc' before being 'disseminated in both written and oral form in academic, general public, public health, and policy settings' (2011, 628). Likewise, Gerber et al. report sharing research poems on the experiences of grief in older people with diverse audiences 'at conferences, exhibitions, events and online', including by inviting illustrations by local artists and creating videos of participants and volunteers reading the poems (2022, 3).
+
+There is no standard method for the creation of research poetry, but a key reference point for many practitioners is the approach used by Glesne (1997) in her development of research poetry from transcripts of interviews with Puerto Rican researcher and educator Dona Juana:
+
+Needing some boundaries in my play with prose and poetry, I began with one rule for shaping the poetic vignettes of Dona Juana: The words in the poetic transcriptions would be Dona Juana's, not mine. As I worked on the poetic transcriptions, I created two more rules: I could pull Dona Juana's phrases from anywhere in the transcript and juxtapose them; and I had to keep enough of her words together to re-present her speaking rhythm, her way of saying things.
+
+(Glesne, 1997, 205)
+
+Accordingly, research poems commonly use only participants' own words and seek to preserve characteristic rhythms of speech (see also Miller et al., 2015, Poindexter, 1997, and Richardson, 1993). In one specific form of research poetry, the creation of 'I poems', the utterances included in the poem are statements that use the personal pronoun 'I', a process that forms part of the feminist Listening Guide method which supports engagement with the multiplicity of 'voices' articulated in qualitative data (Gilligan et al., 2003; Koelsch, 2015).
+
+The process of creating research poetry is at once a process of data presentation and data analysis (Carroll et al., 2011, 629), as is clear in Glesne's comment that '[t]he Dona Juana poetic transcription process began with coding and sorting, similarly to any time I work with qualitative data' (1997, 205) and Furman's observation that '[t]he compressed nature of the poem forces the author to make decisions about what is essential.' (Furman, 2006, 561). Like many approaches to qualitative data analysis, this is also a reflexive process informed by the researcher's own relationship with participants and their data, as Prendergast (2009, 547) highlights. In a poem's clear emergence from the researcher's interpretive acts - the 'cuts' and selections they choose to highlight from among the source data - research poetry has been viewed as a postmodern methodology, in the sense that this approach highlights and foregrounds the extent to which data creation and interpretation never proceed from a neutral or objective position (Langer and Furman, 2004, n.p.). Hence, for Richardson, research poetry offers a means of 'seeing through and beyond sociological naturalisms' (1993, 695).
+
+The sharing of research poems (and the wider category of creative refigurations of data) can be considered an open research method where one or both of two conditions are met: where the poems are disseminated to academic audiences via open access publications, or where they are disseminated to broader audiences in ways that may or may not be openly available to all (for example, where research poetry is shared with a study's participants, or with a specific group of practitioners or attendees at an event). In both instances, this form of evidentiary openness communicates research accessibly, invites new forms of engagement, and arguably surfaces different dimensions of knowledge - e.g. affective, phenomenological and experiential - than is typical with conventional forms of data presentation; as Butler-Kisber (2002, 230) note, 'these nontraditional forms help disrupt the hegemony inherent in traditional texts and evoke emotional responses that bring the reader/viewer closer to the work, permitting otherwise silenced voices to be heard'. For this reason, creative refigurations of data are considered effective in accessibly communicating research to diverse audiences, supporting advocacy around the inclusion and empowerment of marginalized communities and groups (Poindexter, 2002, 71-2), and providing valuable insights to practitioner communities such as social workers and human service practitioners (Furman, Lietz & Langer, 2006).
+
+## References
+
+Berbary, L.A. (2011). 'Poststructural Writerly Representation: Screenplay as Creative Analytic Practice', *Qualitative Inquiry*, 17(2), 186–196. [https://doi.org/10.1177/1077800410393887](https://doi.org/10.1177/1077800410393887)
+
+Butler-Kisber, L. (2002). 'Artful Portrayals in Qualitative Inquiry: The Road to Found Poetry and Beyond', *Alberta Journal of Educational Research*, 48(3), 229–239. [https://doi.org/10.55016/ojs/ajer.v48i3.54930](https://doi.org/10.55016/ojs/ajer.v48i3.54930)
+
+Carroll, P., et al. (2011). 'The Heart of the Matter: Using Poetry as a Method of Ethnographic Inquiry to Represent and Present Experiences of the Informally Housed in Aotearoa/New Zealand', *Qualitative Inquiry*, 17(7), 623–630. [https://doi.org/10.1177/1077800411414003](https://doi.org/10.1177/1077800411414003)
+
+Cox, S. et al. (2023). 'Ethics in Research-Based Theater: Why Stories Matter', *Qualitative Inquiry*, 29(2). [https://doi.org/10.1177/10778004221097641](https://doi.org/10.1177/10778004221097641)
+
+Furman, R. (2006). 'Poetic Forms and Structures in Qualitative Health Research', *Qualitative Health Research*, 16(4), 560–566. [https://doi.org/10.1177/1049732306286819](https://doi.org/10.1177/1049732306286819)
+
+Furman, R., Lietz, C., and Langer, C.L. (2006). 'The Research Poem in International Social Work: Innovations in Qualitative Methodology', *International Journal of Qualitative Methods*, 5(3), 24–34. [https://doi.org/10.1177/160940690600500305](https://doi.org/10.1177/160940690600500305)
+
+Gerber, K. et al. (2022). '"Unprepared for the Depth of my Feelings" - Capturing Grief in Older People through Research Poetry', *Age and Ageing*, 51(3). [https://doi.org/10.1093/ageing/afac030](https://doi.org/10.1093/ageing/afac030)
+
+Gilligan, C., et al. (2003). 'On the Listening Guide: A Voice-Centered Relational Model' in P.M. Camic, J.E. Rhodes, and L. Yardley (eds), *Qualitative Research in Psychology: Expanding Perspectives in Methodology and Design*. Washington, DC: American Psychology Association. pp. 157–172
+
+Glesne, C. (1997). 'That Rare Feeling: Re-presenting Research Through Poetic Transcription', *Qualitative Inquiry*, 3(2), 202–221. [https://doi.org/10.1177/107780049700300204](https://doi.org/10.1177/107780049700300204)
+
+Holland-Batt, S. and Miller, E. (2023). 'Literary, Found and Research Poetry: New Approaches to Representations of Aging and Aged Care', *The Gerontologist*, 63(10), 1645–1653. [https://doi.org/10.1093/geront/gnad056](https://doi.org/10.1093/geront/gnad056)
+
+Koelsch, L.E. (2015). 'I Poems: Evoking Self', *Qualitative Psychology (Washington, D.C.)*, 2(1), 96–107. [https://doi.org/10.1037/qup0000021](https://doi.org/10.1037/qup0000021)
+
+Lahman, M.K.E., Richard, V.M. and Teman, E.D. (2019). 'ish: How to Write Poemish (Research) Poetry', *Qualitative Inquiry*, 25(2), 215–227. [https://doi.org/10.1177/1077800417750182](https://doi.org/10.1177/1077800417750182)
+
+Langer, C.L. and Furman, R. (2004). 'Exploring Identity and Assimilation: Research and Interpretive Poems', *Forum, Qualitative Social Research*, 5(2). [https://doi.org/10.17169/fqs-5.2.609](https://doi.org/10.17169/fqs-5.2.609)
+
+Meyer, M. (2024). *Iconographic Research Poetry*. 1st ed. Singapore: Springer Nature Singapore. [https://doi.org/10.1007/978-981-97-2375-1](https://doi.org/10.1007/978-981-97-2375-1)
+
+Miller, E., Donoghue, G. and Holland-Batt, S. (2015). 'You Could Scream the Place Down: Five Poems on the Experience of Aged Care', *Qualitative Inquiry*, 21(5), 410–417. [https://doi.org/10.1177/1077800415572396](https://doi.org/10.1177/1077800415572396)
+
+Poindexter, C. (1997). 'Poetry as Data Analysis: Listening to the Narratives of Older Minority HIV-affected Caregivers', *Reflections: Narratives of Professional Helping*, 4(3), 22–5. [https://reflectionsnarrativesofprofessionalhelping.org/index.php/Reflections/article/view/563](https://reflectionsnarrativesofprofessionalhelping.org/index.php/Reflections/article/view/563) [accessed 06/11/25]
+
+Prendergast, M. (2009). '"Poem Is What?" Poetic Inquiry in Qualitative Social Science Research', *International Review of Qualitative Research*, 1(4), 541–568. [https://doi.org/10.1525/irqr.2009.1.4.541](https://doi.org/10.1525/irqr.2009.1.4.541)
+
+Richardson, L. (1993). 'Poetics, Dramatics, and Transgressive Validity: The Case of the Skipped Line', *Sociological Quarterly*, 34(4), 695–710. [https://doi.org/10.1111/j.1533-8525.1993.tb00113.x](https://doi.org/10.1111/j.1533-8525.1993.tb00113.x)
+
+Saldana, J. (2003). 'Dramatizing Data: A Primer', *Qualitative Inquiry*, 9(2), 218–236. [https://doi.org/10.1177/1077800402250932](https://doi.org/10.1177/1077800402250932)
+
+Sangha, J.K. et al. (2012). 'An Ethnodrama on Work-Related Learning in Precarious Jobs: Racialization and Resistance', *Qualitative Inquiry*, 18(3), 286–296. [https://doi.org/10.1177/1077800411431555](https://doi.org/10.1177/1077800411431555)
+
