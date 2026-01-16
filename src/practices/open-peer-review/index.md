@@ -1,6 +1,7 @@
 ---
 title: "Open Peer Review"
 slug: open-peer-review
+type: process
 img: /images/open-peer-review.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-16

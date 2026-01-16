@@ -1,6 +1,7 @@
 ---
 title: "Academic/Scholarly Podcasting"
 slug: academic-scholarly-podcasting
+type: accessible-communication
 img: /images/podcasting.jpg
 imgCaption: "Image: Recording a podcast at the University of Cambridge"
 lastUpdated: 2026-01-14

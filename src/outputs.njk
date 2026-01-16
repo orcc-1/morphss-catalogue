@@ -4,7 +4,7 @@ title: Outputs
 permalink: /outputs/
 ---
 <nav class="breadcrumb">
-  <a href="/">Catalogue</a> &gt; <a href="/outputs/">Outputs</a>
+  <a href="/about/">Catalogue</a> &gt; <a href="/outputs/">Outputs</a>
 </nav>
 
 <section class="outputs-page">
@@ -25,7 +25,9 @@ permalink: /outputs/
         {% if output.data.tags %}
         <ul class="output-tags">
           {% for tag in output.data.tags %}
-          <li><span class="tag-dot"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
+          {% set tagType = collections.practices | getPracticeType(tag) %}
+          {% set tagColor = practiceTypes[tagType].color if tagType and practiceTypes[tagType] else '#ccc' %}
+          <li><span class="tag-dot" style="background-color: {{ tagColor }};"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
           {% endfor %}
         </ul>
         {% endif %}

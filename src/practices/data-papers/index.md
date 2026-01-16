@@ -1,6 +1,7 @@
 ---
 title: "Data Papers"
 slug: data-papers
+type: evidentiary
 img: /images/data-papers.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

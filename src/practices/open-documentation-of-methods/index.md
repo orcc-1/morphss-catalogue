@@ -1,6 +1,7 @@
 ---
 title: "Open Documentation of Methods"
 slug: open-documentation-of-methods
+type: process
 img: /images/open-methods.jpg
 imgCaption: "Documentation example"
 lastUpdated: 2025-10-20

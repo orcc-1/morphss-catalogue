@@ -1,6 +1,7 @@
 ---
 title: "Member Checking / Member Sharing"
 slug: member-checking-member-sharing
+type: participatory
 img: /images/member-checking.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

@@ -1,6 +1,7 @@
 ---
 title: "Annotation for Transparent Inquiry"
 slug: annotation-for-transparent-inquiry
+type: evidentiary
 img: /images/ati.jpg
 imgCaption: "Image courtesy Cambridge Archaeology"
 lastUpdated: 2026-01-14

@@ -1,6 +1,7 @@
 ---
 title: "Sharing Ethically Fabricated Data"
 slug: sharing-ethically-fabricated-data
+type: evidentiary
 img: /images/fabricated-data.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

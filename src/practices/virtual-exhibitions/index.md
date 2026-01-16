@@ -1,6 +1,7 @@
 ---
 title: "Virtual Exhibitions"
 slug: virtual-exhibitions
+type: accessible-communication
 img: /images/virtual-exhibitions.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

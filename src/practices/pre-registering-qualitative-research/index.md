@@ -1,6 +1,7 @@
 ---
 title: "Pre-registering Qualitative Research"
 slug: pre-registering-qualitative-research
+type: process
 img: /images/preregistration.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

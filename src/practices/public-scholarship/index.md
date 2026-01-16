@@ -1,6 +1,7 @@
 ---
 title: "Public Scholarship"
 slug: public-scholarship
+type: accessible-communication
 img: /images/public-scholarship.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

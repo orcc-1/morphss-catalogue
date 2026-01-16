@@ -3,7 +3,7 @@ layout: base.njk
 title: Practices
 ---
 <nav class="breadcrumb">
-  <a href="/">Catalogue</a> &gt; <a href="/practices/">Practices</a>
+  <a href="/about/">Catalogue</a> &gt; <a href="/practices/">Practices</a>
 </nav>
 
 <section class="intro">
@@ -16,7 +16,9 @@ title: Practices
   <div class="practices-grid">
     {% for practice in collections.practices %}
     {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
-    <a href="{{ practice.url }}" class="practice-card">
+    {% set typeColor = practiceTypes[practice.data.type].color if practice.data.type and practiceTypes[practice.data.type] else '#d9d9d9' %}
+    {% set hoverColor = practiceTypes[practice.data.type].hoverColor if practice.data.type and practiceTypes[practice.data.type] and practiceTypes[practice.data.type].hoverColor else null %}
+    <a href="{{ practice.url }}" class="practice-card" style="background-color: {{ typeColor }};" data-type="{{ practice.data.type }}">
       <span class="example-count">{{ exampleCount }} example{% if exampleCount != 1 %}s{% endif %}</span>
       <h3>{{ practice.data.title }}</h3>
     </a>

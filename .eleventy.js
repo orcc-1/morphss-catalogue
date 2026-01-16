@@ -10,6 +10,11 @@ module.exports = function(eleventyConfig) {
     });
   });
   
+  // Create pages collection
+  eleventyConfig.addCollection("pages", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/pages/*.md");
+  });
+  
   // Create outputs collection
   eleventyConfig.addCollection("outputs", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/outputs/*.md").sort((a, b) => {
@@ -29,6 +34,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("getPracticeTitle", function(practices, slug) {
     const practice = practices.find(p => p.data.slug === slug);
     return practice ? practice.data.title : slug;
+  });
+  
+  // Filter to get practice type by slug
+  eleventyConfig.addFilter("getPracticeType", function(practices, slug) {
+    const practice = practices.find(p => p.data.slug === slug);
+    return practice ? practice.data.type : null;
   });
   
   // Filter to format date

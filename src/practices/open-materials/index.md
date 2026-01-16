@@ -1,6 +1,7 @@
 ---
 title: "Open Materials"
 slug: open-materials
+type: process
 img: /images/open-materials.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

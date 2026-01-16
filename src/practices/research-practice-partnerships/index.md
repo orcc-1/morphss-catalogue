@@ -1,6 +1,7 @@
 ---
 title: "Research-Practice Partnerships"
 slug: research-practice-partnerships
+type: participatory
 img: /images/rpp.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

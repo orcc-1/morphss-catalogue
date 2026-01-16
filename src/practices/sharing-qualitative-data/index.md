@@ -1,6 +1,7 @@
 ---
 title: "Sharing Qualitative Data"
 slug: sharing-qualitative-data
+type: evidentiary
 img: /images/qualitative-data.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

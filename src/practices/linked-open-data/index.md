@@ -1,6 +1,7 @@
 ---
 title: "Linked Open Data"
 slug: linked-open-data
+type: evidentiary
 img: /images/linked-open-data.jpg
 imgCaption: "caption here!"
 lastUpdated: 2026-01-14

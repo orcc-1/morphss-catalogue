@@ -1,0 +1,33 @@
+{
+  "participatory": {
+    "name": "Participatory Openness",
+    "color": "#E8F4E8",
+    "description": "Participatory openness is the opening of participation in research to individuals and communities outside academia. Practices and approaches which illustrate this form of openness include participatory methods such as Co-production, Community-Based Participatory Research, Participatory Action Research, and Research-Practice Partnerships. Other examples of participatory openness include member checking / member sharing and participatory forms of open peer review."
+  },
+  "epistemic": {
+    "name": "Epistemic Openness",
+    "color": "#EDE7F6",
+    "description": "Epistemic openness is demonstrated by practices that value and engage with a range of knowledge types and ways of knowing beyond those that are privileged within academia. These forms of knowledge might include lived experience - as in, for example, Participatory Action Research. They may also include communal forms of knowledge such as Indigenous knowledges, which may be explored in applications of Community-Based Participatory Research, or professional and practice-based knowledge. Other examples of epistemic openness include the application of the CARE principles to ensure data is managed and shared in alignment with the worldviews, preferences and traditions of the communities it concerns."
+  },
+  "process": {
+    "name": "Process Openness",
+    "color": "#E3F2FD",
+    "description": "Process openness refers to sharing elements of the research process that would not usually be available to other researchers or audiences. Examples include open materials, open documentation of methods, open peer review, pre-registering qualitative research, and documenting and disseminating failure. Practices like reflexivity and explorations of positionality are also examples of process openness due to their focus on the conditions under which knowledge was produced."
+  },
+  "evidentiary": {
+    "name": "Evidentiary Openness",
+    "color": "#FFF3E0",
+    "description": "Evidentiary openness refers to a diverse set of practices by which research evidence is made available to the communities (peers and participants) of research. Examples include sharing qualitative data, publishing a data paper, sharing outputs from arts practice research and using Annotation for Transparent Inquiry. Practices like creatively refiguring data and member checking / member sharing can offer forms of evidentiary openness with participants. Evidentiary openness can also entail the application of the CARE principles to ensure data and materials are shared in line with community preferences."
+  },
+  "availability": {
+    "name": "Availability of Outputs",
+    "color": "#FFF8E1",
+    "description": "Availability of outputs refers to the open access availability of outputs including, but not restricted to, research publications. This category includes open access outputs such as open access monographs, data papers, open materials, pre-registrations, preprints and working papers and open qualitative data. In their free and open availability, these enable scholars to access research outputs regardless of their institutional context (if applicable) and its associated level of resource."
+  },
+  "accessible-communication": {
+    "name": "Accessible Communication of Research",
+    "color": "#FCE4EC",
+    "description": "Accessible communication of research is the dissemination of research in ways that are comprehensible, meaningful and engaging to broader publics. This may include forms of public scholarship like academic podcasts and virtual exhibitions that enable new forms of knowledge exchange, impact and accountability. Another type of accessible communication of research is sharing creatively refigured data, enabling data to be presented to participants and broader audiences in comprehensible and engaging ways."
+  }
+}
+

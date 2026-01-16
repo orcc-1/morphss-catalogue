@@ -1,6 +1,7 @@
 ---
 title: "Authorship (Collective, Collaborative or Communal)"
 slug: authorship-collective-collaborative-communal
+type: participatory
 img: /images/authorship.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

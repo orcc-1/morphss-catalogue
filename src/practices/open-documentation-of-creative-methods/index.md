@@ -1,6 +1,7 @@
 ---
 title: "Open Documentation of Creative Methods"
 slug: open-documentation-of-creative-methods
+type: process
 img: /images/creative-methods.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

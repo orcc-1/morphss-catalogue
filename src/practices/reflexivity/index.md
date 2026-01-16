@@ -1,6 +1,7 @@
 ---
 title: "Reflexivity"
 slug: reflexivity
+type: process
 img: /images/reflexivity.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <nav class="breadcrumb">
-  <a href="/">Catalogue</a> &gt; <a href="/practices/">Practices</a> &gt; {{ title }}
+  <a href="/about/">Catalogue</a> &gt; <a href="/practices/">Practices</a> &gt; {{ title }}
 </nav>
 
 <article class="practice-page">
@@ -47,7 +47,9 @@ layout: base.njk
             {% if output.data.tags %}
             <ul class="output-tags">
               {% for tag in output.data.tags %}
-              <li><span class="tag-dot"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
+              {% set tagType = collections.practices | getPracticeType(tag) %}
+              {% set tagColor = practiceTypes[tagType].color if tagType and practiceTypes[tagType] else '#ccc' %}
+              <li><span class="tag-dot" style="background-color: {{ tagColor }};"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
               {% endfor %}
             </ul>
             {% endif %}

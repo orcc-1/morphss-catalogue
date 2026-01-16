@@ -1,6 +1,7 @@
 ---
 title: "Experimental Longform Publishing (Multivocal, Combinatorial, or Epistolary Monographs)"
 slug: experimental-longform-publishing
+type: availability
 img: /images/experimental-publishing.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

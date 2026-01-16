@@ -1,6 +1,7 @@
 ---
 title: "Positionality (Foregrounding of)"
 slug: positionality-foregrounding
+type: process
 img: /images/positionality.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

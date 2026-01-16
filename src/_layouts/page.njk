@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | Catalogue of Open Research Practices</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="/">Catalogue of Open Research Practices in the Arts, Humanities, and Social Sciences</a>
+      </h1>
+    </div>
+  </header>
+  
+  <main class="container">
+    <article class="page-layout">
+      <div class="page-left-column">
+        {{ leftColumn | safe }}
+        {% if showFunderCredits %}
+        {% include "funder-credits.njk" %}
+        {% endif %}
+      </div>
+      
+      <aside class="page-right-column">
+        {{ rightColumn | safe }}
+      </aside>
+    </article>
+  </main>
+</body>
+</html>
+

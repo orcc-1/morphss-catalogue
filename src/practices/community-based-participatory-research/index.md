@@ -1,6 +1,7 @@
 ---
 title: "Community-Based Participatory Research"
 slug: community-based-participatory-research
+type: participatory
 img: /images/cbpr-image.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

@@ -1,6 +1,7 @@
 ---
 title: "Digital Enumerative Bibliography"
 slug: digital-enumerative-bibliography
+type: evidentiary
 img: /images/digital-bibliography.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14

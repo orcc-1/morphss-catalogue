@@ -1,6 +1,7 @@
 ---
 title: "Co-production"
 slug: co-production
+type: participatory
 img: /images/co-production.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
