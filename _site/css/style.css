@@ -164,6 +164,16 @@ main {
   list-style: none;
 }
 
+.outputs-section .output-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.outputs-section .output-item {
+  margin-bottom: 0;
+}
+
 .output-item {
   margin-bottom: var(--spacing-lg);
   padding: var(--spacing-lg);
@@ -327,15 +337,56 @@ main {
   margin-top: var(--spacing-xxl);
 }
 
-.site-footer p {
+.site-footer > .container > p {
   font-size: 0.9rem;
   color: var(--color-text-light);
+}
+
+/* Funders Section */
+.funders {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid #e0e0e0;
+}
+
+.funders-text {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.funder-logos {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
+  flex-wrap: wrap;
+}
+
+.funder-logo {
+  display: block;
+}
+
+.funder-logo img {
+  height: 50px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.funder-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .practices-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .outputs-section .output-list {
+    grid-template-columns: 1fr;
   }
   
   .practice-page {

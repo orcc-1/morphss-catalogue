@@ -2,7 +2,7 @@
 title: "Annotation for Transparent Inquiry"
 slug: annotation-for-transparent-inquiry
 img: /images/ati.jpg
-imgCaption: "caption here"
+imgCaption: "Image courtesy Cambridge Archaeology"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
