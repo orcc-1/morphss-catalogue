@@ -14,9 +14,9 @@ Categorised as a form of poetic inquiry (Prendergast, 2009) and sometimes also r
 
 There is no standard method for the creation of research poetry, but a key reference point for many practitioners is the approach used by Glesne (1997) in her development of research poetry from transcripts of interviews with Puerto Rican researcher and educator Dona Juana:
 
-Needing some boundaries in my play with prose and poetry, I began with one rule for shaping the poetic vignettes of Dona Juana: The words in the poetic transcriptions would be Dona Juana's, not mine. As I worked on the poetic transcriptions, I created two more rules: I could pull Dona Juana's phrases from anywhere in the transcript and juxtapose them; and I had to keep enough of her words together to re-present her speaking rhythm, her way of saying things.
-
-(Glesne, 1997, 205)
+> Needing some boundaries in my play with prose and poetry, I began with one rule for shaping the poetic vignettes of Dona Juana: The words in the poetic transcriptions would be Dona Juana's, not mine. As I worked on the poetic transcriptions, I created two more rules: I could pull Dona Juana's phrases from anywhere in the transcript and juxtapose them; and I had to keep enough of her words together to re-present her speaking rhythm, her way of saying things.  
+>  
+> (Glesne, 1997, 205)
 
 Accordingly, research poems commonly use only participants' own words and seek to preserve characteristic rhythms of speech (see also Miller et al., 2015, Poindexter, 1997, and Richardson, 1993). In one specific form of research poetry, the creation of 'I poems', the utterances included in the poem are statements that use the personal pronoun 'I', a process that forms part of the feminist Listening Guide method which supports engagement with the multiplicity of 'voices' articulated in qualitative data (Gilligan et al., 2003; Koelsch, 2015).
 

@@ -3,6 +3,6 @@ citation: "Plapinger, S. (2022). 'Online Appendices for: \"Insurgent Recruitment
 doi: "10.5064/F617CWDH"
 comment: "Open materials relating to the published study. Contains DOI, CC licence, DOI of published article, README, and the following open materials: an appendix detailing fieldwork methodology, coding strategy and more. OA"
 tags:
-  - open-longform-scholarship
+  - open-materials
 ---
 
