@@ -43,6 +43,8 @@ layout: base.njk
             <p class="citation">{{ output.data.citation | safe }}</p>
             {% if output.data.doi %}
             <p class="doi"><a href="https://doi.org/{{ output.data.doi }}">https://doi.org/{{ output.data.doi }}</a>.</p>
+            {% elif output.data.url %}
+            <p class="doi"><a href="{{ output.data.url }}">{{ output.data.url }}</a>.</p>
             {% endif %}
             {% if output.data.tags %}
             <ul class="output-tags">

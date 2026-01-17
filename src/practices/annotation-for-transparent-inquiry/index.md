@@ -14,17 +14,17 @@ ATI builds on an earlier technology, Active Citation, a process via which 'any c
 
 How does ATI work? As Karcher and Weber (2019, n.p) note, 'authors can generate ATI annotations using their own choice from familiar tools including comments or cross-references in Word or LibreOffice, comments in Acrobat, hyperrefs in LaTeX, etc'. The hypothes.is open web annotation mechanism enables readers to access and interact with annotations in both pdf and online versions of the article. As clarified in the QDR's guidance on ATI, annotations can be used to address one or more of a number of different functions:
 
-A full citation to the underlying data source(s) mentioned in the annotated portion of the text [...];
-
-A source excerpt: typically 100 to 150 words from a textual source [...];
-
-A source excerpt translation: if the excerpt is not in English, a translation and indication of its source;
-
-An analytic note: discussion that illustrates how the data were generated and/or analyzed and how they support the empirical claim or conclusion being annotated in the text;
-
-Data source: the file name(s) of the corresponding data source(s) linked to the source(s) themselves when these are digital and can be shared ethically and legally.
-
-(Qualitative Data Repository, n.d., n.p.)
+> A full citation to the underlying data source(s) mentioned in the annotated portion of the text [...];
+>
+> A source excerpt: typically 100 to 150 words from a textual source [...];
+>
+> A source excerpt translation: if the excerpt is not in English, a translation and indication of its source;
+>
+> An analytic note: discussion that illustrates how the data were generated and/or analyzed and how they support the empirical claim or conclusion being annotated in the text;
+>
+> Data source: the file name(s) of the corresponding data source(s) linked to the source(s) themselves when these are digital and can be shared ethically and legally.
+>
+> (Qualitative Data Repository, n.d., n.p.)
 
 ATI in this way offers a flexible and versatile means of augmenting the text of a publication in ways that accommodate differing methodological specificities. In instances where it is not possible for ethical or legal reasons to link to passages of the underlying data, annotations could be used to enhance methodological transparency by further clarifying the methods or analytical processes used. The annotated article itself is also supplemented by a data overview, which accompanies any stored data itself together with the compiled annotations in the QDR repository. In the data overview, authors can further contextualise the data as well as clarifying the 'logic of annotation' they have applied - i.e. the purposes for which annotation has been used (Elman & Kapiszewski, 2018, 3; Karcher & Weber, 2019, n.p.).
 

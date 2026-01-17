@@ -3,6 +3,6 @@ citation: "Cameron, H.M. et al. (2025). '\"What about me?\" Rapid Scoping Review
 doi: "10.15131/shef.data.29616974"
 comment: "Open materials in the University of Sheffield's Figshare-powered data repository for an article on the above topic. Materials include details of the literature search strategy employed. Includes a Creative Commons license and DOI. OA"
 tags:
-  - open-longform-scholarship
+  - open-materials
 ---
 
