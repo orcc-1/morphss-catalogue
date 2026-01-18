@@ -1,0 +1,110 @@
+media:
+  input: src/images
+  output: /images
+
+content:
+  - name: outputs
+    label: Outputs
+    type: collection
+    path: src/outputs
+    filename: "{fields.slug}"
+    extension: md
+    fields:
+      - name: citation
+        label: Citation
+        type: rich-text
+        description: Full citation including HTML links
+      - name: comment
+        label: Comment
+        type: text
+        description: Brief description of this output
+      - name: tags
+        label: Related Practices
+        type: string
+        list: true
+        options:
+          values:
+            - academic-scholarly-podcasting
+            - annotation-for-transparent-inquiry
+            - applying-care-principles-to-indigenous-material
+            - authorship-collective-collaborative-communal
+            - co-production
+            - collaborative-translation
+            - community-based-participatory-research
+            - data-papers
+            - digital-enumerative-bibliography
+            - documenting-disseminating-failure
+            - experimental-longform-publishing
+            - linked-open-data
+            - member-checking-member-sharing
+            - open-documentation-of-creative-methods
+            - open-documentation-of-methods
+            - open-longform-scholarship
+            - open-materials
+            - open-peer-review
+            - participatory-action-research
+            - positionality-foregrounding
+            - pre-registering-qualitative-research
+            - preprints-working-papers
+            - public-scholarship
+            - reflexivity
+            - research-practice-partnerships
+            - sharing-creative-practice-outputs
+            - sharing-creatively-refigured-data
+            - sharing-ethically-fabricated-data
+            - sharing-qualitative-data
+            - virtual-exhibitions
+    view:
+      fields: [citation, tags]
+      primary: citation
+
+  - name: practices
+    label: Practices
+    type: collection
+    path: src/practices
+    filename: "{fields.slug}/index"
+    extension: md
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+        description: URL-friendly identifier (e.g. reflexivity)
+      - name: types
+        label: Practice Types
+        type: string
+        list: true
+        options:
+          values:
+            - participatory
+            - epistemic
+            - process
+            - evidentiary
+            - availability
+            - accessible-communication
+      - name: img
+        label: Image
+        type: image
+      - name: imgCaption
+        label: Image Caption
+        type: string
+      - name: lastUpdated
+        label: Last Updated
+        type: date
+      - name: layout
+        label: Layout
+        type: string
+        default: practice.njk
+        hidden: true
+      - name: body
+        label: Content
+        type: rich-text
+    view:
+      fields: [title, types, lastUpdated]
+      primary: title
+      sort: [title]
+
