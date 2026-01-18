@@ -1,47 +1,94 @@
 ---
 layout: base.njk
-title: Practices
+title: Home
 ---
-<nav class="breadcrumb">
-  <a href="/about/">Catalogue</a> &gt; <a href="/practices/">Practices</a>
-</nav>
 
 <section class="intro">
-  <p>Practices are ways of doing, thinking, or making that shape how knowledge is produced and shared. They emerge as much through habit, collaboration, and context as from set rules, disciplines, or institutional expectations. This catalogue was created in 2025-6 as part of the MORPHSS (Materialising Open Research in the Humanities and Social Sciences) research project. It is designed as a living, iterative, and collaborative showcase of open research practices within the arts, humanities, and social sciences disciplines. <a href="/about/">Learn more</a>.</p>
+  <p>This is a living, iterative, and collaborative showcase of open research practices within the arts, humanities, and social sciences disciplines. <a href="/about/">Learn more</a>.</p>
 </section>
 
 <section class="practices-section">
   <h2 class="section-heading">PRACTICES</h2>
   
   <div class="practices-grid">
-    {% for practice in collections.practices %}
-    {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
-    {% set types = practice.data.types if practice.data.types else ([practice.data.type] if practice.data.type else []) %}
-    {% set typeColors = [] %}
-    {% for t in types %}
-      {% if practiceTypes[t] %}
-        {% set typeColors = (typeColors.push(practiceTypes[t].color), typeColors) %}
+    {% set practiceList = collections.practices %}
+    {% set displayCount = 5 %}
+    {% set remainingCount = practiceList.length - displayCount %}
+    
+    {% for practice in practiceList %}
+      {% if loop.index <= displayCount %}
+        {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
+        {% set types = practice.data.types if practice.data.types else ([practice.data.type] if practice.data.type else []) %}
+        {% set typeColors = [] %}
+        {% for t in types %}
+          {% if practiceTypes[t] %}
+            {% set typeColors = (typeColors.push(practiceTypes[t].color), typeColors) %}
+          {% endif %}
+        {% endfor %}
+        {% if typeColors.length > 1 %}
+          {% set colorStops = [] %}
+          {% for color in typeColors %}
+            {% set pct = loop.index0 * (100 / typeColors.length) %}
+            {% set pctEnd = loop.index * (100 / typeColors.length) %}
+            {% set colorStops = (colorStops.push(color + ' ' + pct + '%'), colorStops) %}
+            {% set colorStops = (colorStops.push(color + ' ' + pctEnd + '%'), colorStops) %}
+          {% endfor %}
+          {% set stripStyle = 'linear-gradient(to right, ' + colorStops.join(', ') + ')' %}
+        {% elif typeColors.length == 1 %}
+          {% set stripStyle = typeColors[0] %}
+        {% else %}
+          {% set stripStyle = '#ccc' %}
+        {% endif %}
+        <a href="{{ practice.url }}" class="practice-card" style="--type-colors: {{ stripStyle }};" data-type="{{ types | join(',') }}">
+          <span class="example-count">{{ exampleCount }} example{% if exampleCount != 1 %}s{% endif %}</span>
+          <h3>{{ practice.data.title }}</h3>
+        </a>
       {% endif %}
     {% endfor %}
-    {% if typeColors.length > 1 %}
-      {% set colorStops = [] %}
-      {% for color in typeColors %}
-        {% set pct = loop.index0 * (100 / typeColors.length) %}
-        {% set pctEnd = loop.index * (100 / typeColors.length) %}
-        {% set colorStops = (colorStops.push(color + ' ' + pct + '%'), colorStops) %}
-        {% set colorStops = (colorStops.push(color + ' ' + pctEnd + '%'), colorStops) %}
-      {% endfor %}
-      {% set stripStyle = 'linear-gradient(to right, ' + colorStops.join(', ') + ')' %}
-    {% elif typeColors.length == 1 %}
-      {% set stripStyle = typeColors[0] %}
-    {% else %}
-      {% set stripStyle = '#ccc' %}
-    {% endif %}
-    <a href="{{ practice.url }}" class="practice-card" style="--type-colors: {{ stripStyle }};" data-type="{{ types | join(',') }}">
-      <span class="example-count">{{ exampleCount }} example{% if exampleCount != 1 %}s{% endif %}</span>
-      <h3>{{ practice.data.title }}</h3>
+    
+    {% if remainingCount > 0 %}
+    <a href="/practices/" class="practice-card practice-card--more">
+      <span class="more-count">+{{ remainingCount }}</span>
+      <h3>Practices</h3>
     </a>
-    {% endfor %}
+    {% endif %}
   </div>
 </section>
 
+<section class="outputs-section home-outputs">
+  <h2 class="section-heading">OUTPUTS</h2>
+  
+  {% set outputList = collections.outputs %}
+  {% set outputDisplayCount = 3 %}
+  
+  <ul class="output-list">
+    {% for output in outputList %}
+      {% if loop.index <= outputDisplayCount %}
+      <li class="output-item">
+        <p class="citation">{{ output.data.citation | safe }}</p>
+        {% if output.data.doi %}
+        <p class="doi"><a href="https://doi.org/{{ output.data.doi }}">https://doi.org/{{ output.data.doi }}</a>.</p>
+        {% elif output.data.url %}
+        <p class="doi"><a href="{{ output.data.url }}">{{ output.data.url }}</a>.</p>
+        {% endif %}
+        {% if output.data.tags %}
+        <ul class="output-tags">
+          {% for tag in output.data.tags %}
+          {% set tagType = collections.practices | getPracticeType(tag) %}
+          {% set tagColor = practiceTypes[tagType].color if tagType and practiceTypes[tagType] else '#ccc' %}
+          <li><span class="tag-dot" style="background-color: {{ tagColor }};"></span> <a href="/practices/{{ tag }}/">{{ collections.practices | getPracticeTitle(tag) }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+    
+    <li class="output-item output-item--more">
+      <a href="/outputs/">
+        <span class="more-count">+{{ outputList.length }}</span>
+        <span class="more-label">Outputs</span>
+      </a>
+    </li>
+  </ul>
+</section>
