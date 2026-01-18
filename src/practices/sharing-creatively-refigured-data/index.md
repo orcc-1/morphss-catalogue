@@ -1,7 +1,9 @@
 ---
 title: "Sharing Creatively Refigured Data"
 slug: sharing-creatively-refigured-data
-type: accessible-communication
+types:
+  - accessible-communication
+  - evidentiary
 img: /images/creative-data.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
