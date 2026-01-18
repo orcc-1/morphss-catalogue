@@ -4,7 +4,7 @@ title: Home
 ---
 
 <section class="intro">
-  <p>This is a living, iterative, and collaborative showcase of open research practices within the arts, humanities, and social sciences disciplines. <a href="/about/">Learn more</a>.</p>
+  <p>This is a living, iterative, and collaborative showcase of open research practices within the arts, humanities, and social sciences disciplines. <a href="/about/">Learn more</a></p>
 </section>
 
 <section class="practices-section">
@@ -91,4 +91,17 @@ title: Home
       </a>
     </li>
   </ul>
+</section>
+
+<section class="types-section">
+  <h2 class="section-heading">TYPES OF OPENNESS</h2>
+  
+  <div class="types-grid">
+    {% for typeKey, typeData in practiceTypes %}
+    <div class="type-card" style="background-color: {{ typeData.color }};">
+      <h3>{{ typeData.name }}</h3>
+      <p>{{ typeData.description | safe }}</p>
+    </div>
+    {% endfor %}
+  </div>
 </section>
