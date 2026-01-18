@@ -16,9 +16,28 @@ title: Practices
   <div class="practices-grid">
     {% for practice in collections.practices %}
     {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
-    {% set typeColor = practiceTypes[practice.data.type].color if practice.data.type and practiceTypes[practice.data.type] else '#d9d9d9' %}
-    {% set hoverColor = practiceTypes[practice.data.type].hoverColor if practice.data.type and practiceTypes[practice.data.type] and practiceTypes[practice.data.type].hoverColor else null %}
-    <a href="{{ practice.url }}" class="practice-card" style="background-color: {{ typeColor }};" data-type="{{ practice.data.type }}">
+    {% set types = practice.data.types if practice.data.types else ([practice.data.type] if practice.data.type else []) %}
+    {% set typeColors = [] %}
+    {% for t in types %}
+      {% if practiceTypes[t] %}
+        {% set typeColors = (typeColors.push(practiceTypes[t].color), typeColors) %}
+      {% endif %}
+    {% endfor %}
+    {% if typeColors.length > 1 %}
+      {% set colorStops = [] %}
+      {% for color in typeColors %}
+        {% set pct = loop.index0 * (100 / typeColors.length) %}
+        {% set pctEnd = loop.index * (100 / typeColors.length) %}
+        {% set colorStops = (colorStops.push(color + ' ' + pct + '%'), colorStops) %}
+        {% set colorStops = (colorStops.push(color + ' ' + pctEnd + '%'), colorStops) %}
+      {% endfor %}
+      {% set stripStyle = 'linear-gradient(to right, ' + colorStops.join(', ') + ')' %}
+    {% elif typeColors.length == 1 %}
+      {% set stripStyle = typeColors[0] %}
+    {% else %}
+      {% set stripStyle = '#ccc' %}
+    {% endif %}
+    <a href="{{ practice.url }}" class="practice-card" style="--type-colors: {{ stripStyle }};" data-type="{{ types | join(',') }}">
       <span class="example-count">{{ exampleCount }} example{% if exampleCount != 1 %}s{% endif %}</span>
       <h3>{{ practice.data.title }}</h3>
     </a>

@@ -138,8 +138,9 @@ main {
 }
 
 .practice-card {
-  background-color: var(--color-card-bg);
+  background-color: #e8e8e8;
   padding: var(--spacing-lg);
+  padding-top: calc(var(--spacing-lg) + 6px);
   min-height: 216px;
   display: flex;
   flex-direction: column;
@@ -148,10 +149,21 @@ main {
   color: var(--color-text);
   transition: filter 0.2s ease;
   position: relative;
+  overflow: hidden;
+}
+
+.practice-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: var(--type-colors, #ccc);
 }
 
 .practice-card:hover {
-  filter: brightness(0.92);
+  filter: brightness(0.95);
 }
 
 .practice-card .example-count {
