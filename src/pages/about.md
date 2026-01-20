@@ -19,7 +19,7 @@ leftColumn: |
     <li><strong>Open access publication of journal articles:</strong> <a href="https://doi.org/10.31219/osf.io/94rsp_v1" target="_blank" rel="noopener">UK Reproducibility Network (UKRN)</a></li>
     <li><strong>Open software:</strong> <a href="https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details/" target="_blank" rel="noopener">The Turing Way</a>; <a href="https://doi.org/10.31219/osf.io/qw9ck" target="_blank" rel="noopener">UKRN</a>; <a href="https://www.software.ac.uk/guide/how-make-your-script-ready-publication" target="_blank" rel="noopener">Software Sustainability Institute</a></li>
     <li><strong>Open (quantitative) data:</strong> <a href="https://book.the-turing-way.org/reproducible-research/rdm/rdm-sharing/" target="_blank" rel="noopener">The Turing Way</a>; <a href="https://doi.org/10.31219/osf.io/wp4zu_v1" target="_blank" rel="noopener">UKRN</a></li>
-    <li><strong>Pre-registering (quantitative) research:</strong> <a href="https://www.cos.io/initiatives/registered-reports" target="_blank" rel="noopener">Center for Open Science</a>; <a href="https://doi.org/10.31219/osf.io/8v2n7" target="_blank" rel="noopener">UKRN</a></li>
+    <li><strong>Pre-registering (quantitative) research:</strong> <a href="https://www.cos.io/initiatives/prereg" target="_blank" rel="noopener">Center for Open Science</a>; <a href="https://doi.org/10.31219/osf.io/8v2n7" target="_blank" rel="noopener">UKRN</a></li>
     <li><strong>Registered reports:</strong> <a href="https://www.cos.io/initiatives/registered-reports" target="_blank" rel="noopener">Center for Open Science</a>; <a href="https://doi.org/10.31219/osf.io/8v2n7" target="_blank" rel="noopener">UKRN</a></li>
   </ul>
 rightColumn: |
