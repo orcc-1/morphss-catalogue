@@ -30,6 +30,22 @@ The question of peer review involvement is a 'key consideration' in current podc
 
 Scholars appreciate and employ podcasts for a variety of research purposes, including to 'work out ideas that are not yet fully formed,' and these 'discussions or monologues they might have during a podcast function as a sort of sense-making in the moment' (Beckstead et al., 2024). Podcasts of this sort are also essential and must be appreciated and understood as examples of open research methodology and not treated solely as a research output. Therefore, the creator's intention and scholarly podcast type must be considered. Podcasts could essentially fall into multiple categories, then - as forms of dissemination, as classified here, or as methodological transparency or even a form of peer review (see 'open peer review' entry).
 
+## Further reading
+
+Beckstead, L. (2024) *Podcast or Perish: Peer Review and Knowledge Creation for the 21st Century*. 1st ed. New York: Bloomsbury Academic (Bloomsbury Podcast Studies). [https://doi.org/10.5040/9781501385179](https://doi.org/10.5040/9781501385179) 
+
+Beckstead, L. and Llinares, D. (2025) *Podcast Studies: Practice into Theory*. ON, Canada: Wilfrid Laurier University Press. [http://ebookcentral.proquest.com/lib/cam/detail.action?docID=31914984](http://ebookcentral.proquest.com/lib/cam/detail.action?docID=31914984)
+
+‘Defining Podcast Studies: Challenging the traditional principles of scholarly communication’ (2025). Podcast. Choice 360, 21 April. [https://www.choice360.org/podcasts/episode-406/](https://www.choice360.org/podcasts/episode-406/)
+
+Densley, B., Dickson-Swift, V. and Mills, J. (2025) ‘Scholarly Podcasting: Lessons From Disseminating Grounded Theory Findings on Singing Facilitation’, *International Journal of Qualitative Methods*, 24. [https://doi.org/10.1177/16094069251364617](https://doi.org/10.1177/16094069251364617) 
+
+McGregor, H. (2022) ‘Podcast Studies’, in *Oxford Research Encyclopedia of Literature*. [https://doi.org/10.1093/acrefore/9780190201098.013.1338](https://doi.org/10.1093/acrefore/9780190201098.013.1338) 
+
+Persohn, L. and Branson, S. (2024) ‘Broadening Legitimacy of Scholarly Podcasting as Knowledge Dissemination: Metrics, Opportunities and Considerations’, *Publishing Research Quarterly*, 40(3), 269–286. [https://doi.org/10.1007/s12109-024-10005-5](https://doi.org/10.1007/s12109-024-10005-5)
+
+Sewell, A. (2025) ‘Giving Voice to Community: Embodied Scholarship, Generative Discussion, and Other Affordances of Scholarly Podcasting’, *The Journal of Electronic Publishing*, 28(1). [https://doi.org/10.3998/jep.6036](https://doi.org/10.3998/jep.6036) 
+
 ## References
 
 Beckstead, L. and Llinares, D. (2025) *Podcast studies: practice into theory*. Waterloo, Ontario: Wilfrid Laurier University Press
