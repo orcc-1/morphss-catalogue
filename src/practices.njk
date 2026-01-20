@@ -14,6 +14,25 @@ permalink: /practices/
 <section class="practices-section">
   <h2 class="section-heading">PRACTICES</h2>
   
+  <div class="filter-container">
+    <button class="filter-toggle" id="filterToggle">
+      Filter by type <span class="filter-arrow">▼</span>
+    </button>
+    <div class="filter-dropdown" id="filterDropdown">
+      {% for typeKey, typeData in practiceTypes %}
+      <label class="filter-option">
+        <input type="checkbox" value="{{ typeKey }}" checked>
+        <span class="filter-color" style="background-color: {{ typeData.color }};"></span>
+        {{ typeData.name }}
+      </label>
+      {% endfor %}
+      <div class="filter-actions">
+        <button class="filter-btn" id="selectAll">Select all</button>
+        <button class="filter-btn" id="clearAll">Clear all</button>
+      </div>
+    </div>
+  </div>
+  
   <div class="practices-grid">
     {% for practice in collections.practices %}
     {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
@@ -45,4 +64,59 @@ permalink: /practices/
     {% endfor %}
   </div>
 </section>
+
+<script>
+(function() {
+  const toggle = document.getElementById('filterToggle');
+  const dropdown = document.getElementById('filterDropdown');
+  const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]');
+  const cards = document.querySelectorAll('.practice-card');
+  const selectAll = document.getElementById('selectAll');
+  const clearAll = document.getElementById('clearAll');
+  
+  // Toggle dropdown
+  toggle.addEventListener('click', function() {
+    dropdown.classList.toggle('filter-dropdown--open');
+    toggle.classList.toggle('filter-toggle--active');
+  });
+  
+  // Close dropdown when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.filter-container')) {
+      dropdown.classList.remove('filter-dropdown--open');
+      toggle.classList.remove('filter-toggle--active');
+    }
+  });
+  
+  // Filter function
+  function filterPractices() {
+    const selectedTypes = Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+    
+    cards.forEach(card => {
+      const cardTypes = card.dataset.type.split(',');
+      const hasMatch = cardTypes.some(type => selectedTypes.includes(type));
+      card.style.display = hasMatch ? '' : 'none';
+    });
+  }
+  
+  // Add change listeners to checkboxes
+  checkboxes.forEach(cb => {
+    cb.addEventListener('change', filterPractices);
+  });
+  
+  // Select all
+  selectAll.addEventListener('click', function() {
+    checkboxes.forEach(cb => cb.checked = true);
+    filterPractices();
+  });
+  
+  // Clear all
+  clearAll.addEventListener('click', function() {
+    checkboxes.forEach(cb => cb.checked = false);
+    filterPractices();
+  });
+})();
+</script>
 
