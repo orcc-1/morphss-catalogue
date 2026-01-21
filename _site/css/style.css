@@ -534,7 +534,32 @@ main {
 .last-updated {
   font-size: 0.85rem;
   color: var(--color-text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Practice Type Tags */
+.practice-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
   margin-bottom: var(--spacing-xl);
+}
+
+.practice-type-tag {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  font-size: 0.85rem;
+  border-radius: 4px;
+  color: var(--color-text);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.practice-type-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
 }
 
 .last-updated strong {

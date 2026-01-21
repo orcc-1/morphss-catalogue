@@ -17,6 +17,19 @@ layout: base.njk
       {% endif %}
     </header>
     
+    {% set types = types if types else ([type] if type else []) %}
+    {% if types.length > 0 %}
+    <div class="practice-types">
+      {% for t in types %}
+        {% if practiceTypes[t] %}
+        <a href="/#types-of-openness" class="practice-type-tag" style="background-color: {{ practiceTypes[t].color }};">
+          {{ practiceTypes[t].name }}
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    
     <section class="description">
       <h2>DESCRIPTION</h2>
       {{ content | safe }}
