@@ -8,6 +8,8 @@ lastUpdated: 2026-01-14
 layout: practice.njk
 ---
 
+*Disciplines include: archaeology, anthropology, geography, linguistics*
+
 The CARE principles are a set of values developed by the International Indigenous Data Sovereignty Interest Group, under the aegis of the Research Data Alliance and in consultation with a wider group of Indigenous Peoples, organisations and stakeholders (Carroll et al., 2020). The principles can be viewed as part of movements towards Indigenous Data Sovereignty: Indigenous People's rights to assert control over their data. They also seek to balance the technical and functional approach to data management and sharing of the FAIR principles (Findable, Accessible, Interoperable, Reusable) with a consideration of data's 'people and purpose dimensions' (Taitingfong et al., 2024, 82). As an acronym, CARE consists of the following components: Collective benefit, Authority to control, Responsibility, Ethics. Each of these has subcomponents; the subcomponents of Responsibility, for example, are 'For expanding capability and capacity', 'For positive relationships', and 'For Indigenous languages and worldviews' (Carroll, 2020, Fig. 2).
 
 The CARE principles are relevant to any field which involves Indigenous data, such as anthropology and ethnography, human geography, environmental sciences and archaeology. Using the latter as a brief example can illustrate some of the issues they seek to address. Gupta et al. consider archaeology as 'extractive, a practice that has historically benefited dominant groups' (2023, 76), while Di Donato and Prevost have highlighted that archaeology's failure to attend to questions of ownership of, and Indigenous access to, data has 'resulted in indigenous and descendant communities not having access to or ownership and possession of their material heritage' (2025, 29). The CARE principles address these power imbalances by emphasising the need for ethical, inclusive approaches to the collection, management and use of Indigenous data - approaches that benefit communities themselves in terms of inclusive development and control over cultural heritage.
@@ -17,6 +19,20 @@ Aside from indicating that data management should be led by tribal expectations 
 The kind of 'openness' at play here is not necessarily the 'openness' of open data, just with some modifications; in fact, adherence to the CARE principles may at times prevent any onward open sharing of the data, where this contravenes Indigenous rights and data governance stipulations (Ng, 2025, 3). As Carroll comments, 'Some tribal laws and policies dictate that all data generated from a research study is property of the tribe and all data must be returned to the tribe at the conclusion of the study' (2022, 3). The openness of applications of the CARE principles therefore might be an openness of outputs (where openness is understood in a public and unrestricted sense), but this is not necessarily the case. Rather, the kind of openness that can be emphasised here is the openness to and valuing of individuals and groups outside academia, whose preferences regarding the handling of their data are heard and acted upon, and with whom culturally cohesive and beneficial outputs are shared. It is also the openness to and valuing of broader conceptions of knowledge - traditional, inherited, experiential - than are typical within the extractive and instrumental research logics the principles seek to address.
 
 We close this entry with a comment on the scope of the principles' application. It should be noted that while the original formulation of the CARE principles refers only to Indigenous data, various scholars have called for their extension to broader contexts that entail data relating to marginalised or vulnerable populations (see, for example, Suchikova & Nazarovets, 2025; Schulder, 2022); Schulder's discussion of applying the CARE principles to a project entailing data relating to Deaf communities in Germany is of particular interest in this respect.
+
+
+## Further reading / resources
+
+Collaboratory for Indigenous Data Governance. (n.d). 'CARE Data Maturity Model'. Webpage. [https://indigenousdatalab.org/care-data-maturity-model/](https://indigenousdatalab.org/care-data-maturity-model/)
+
+Carroll, S.R. et al. (2020). ‘The CARE Principles for Indigenous Data Governance’, *Data Science Journal*, 19(1). [https://doi.org/10.5334/dsj-2020-043](https://doi.org/10.5334/dsj-2020-043)
+
+Garba, I. et al. (2023). ‘Indigenous Peoples and Research: Self-Determination in Research Governance’, *Frontiers in Research Metrics and Analytics*, 8. [https://doi.org/10.3389/frma.2023.1272318](https://doi.org/10.3389/frma.2023.1272318)
+
+Global Indigenous Data Alliance (GIDA). (n.d). Website. [https://www.gida-global.org/care](https://www.gida-global.org/care)
+
+Jennings, L. et al. (2023). ‘Applying the “CARE Principles for Indigenous Data Governance” to Ecology and Biodiversity Research’, *Nature Ecology & Evolution*, 7(10), 1547–1551. [https://doi.org/10.1038/s41559-023-02161-2](https://doi.org/10.1038/s41559-023-02161-2) 
+
 
 ## References
 
