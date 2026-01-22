@@ -2,6 +2,9 @@
 title: "Preprints and Working Papers"
 slug: preprints-working-papers
 type: availability
+disciplines:
+  - ah
+  - ss
 img: /images/preprints.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
