@@ -1,7 +1,12 @@
 ---
 title: "Linked Open Data"
 slug: linked-open-data
-type: evidentiary
+types: 
+  - evidentiary
+  - availability
+disciplines:
+  - ah
+  - ss
 img: /images/linked-open-data.jpg
 imgCaption: "caption here!"
 lastUpdated: 2026-01-14
