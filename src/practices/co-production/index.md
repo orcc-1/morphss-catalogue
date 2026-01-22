@@ -4,7 +4,7 @@ slug: co-production
 types: 
   - participatory
   - epistemic
-disciplines
+disciplines:
   - ah
   - ss
 img: /images/co-production.jpg
