@@ -1,7 +1,10 @@
 ---
 title: "Open Documentation of Methods"
 slug: open-documentation-of-methods
-type: process
+types: 
+  - process
+  - availability
+discipline: ss
 img: /images/open-methods.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-17
