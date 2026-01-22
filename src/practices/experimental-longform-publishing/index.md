@@ -2,6 +2,14 @@
 title: Experimental Longform Publishing (Multivocal, Combinatorial, or
   Epistolary Monographs)
 slug: experimental-longform-publishing
+types:
+  - process
+  - participatory
+  - epistemic
+  - availability
+disciplines:
+  - ah
+  - ss
 img: /images/experimental-longform.png
 imgCaption: Experimental Publishing Compendium by the COPIM project
 lastUpdated: 2026-01-14
