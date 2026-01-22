@@ -1,7 +1,12 @@
 ---
 title: "Participatory Action Research (PAR)"
 slug: participatory-action-research
-type: participatory
+types: 
+  - participatory
+  - epistemic
+disciplines:
+  - ah
+  - ss
 img: /images/par.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
