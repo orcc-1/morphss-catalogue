@@ -4,7 +4,8 @@ slug: member-checking-member-sharing
 types: 
   - participatory
   - evidentiary
-discipline: ss
+discipline:
+  - ss
 img: /images/member-checking.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
