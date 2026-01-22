@@ -1,7 +1,12 @@
 ---
 title: "Community-Based Participatory Research"
 slug: community-based-participatory-research
-type: participatory
+types:
+  - participatory
+  - epistemic
+disciplines:
+  - ah
+  - ss
 img: /images/cbpr-image.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
