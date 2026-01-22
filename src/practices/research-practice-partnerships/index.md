@@ -7,6 +7,7 @@ imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: criminology, education*
 
 A form of co-production, Research-Practice Partnerships (RPPs) seek to bring research and practice closer together through sustained collaboration between researchers and practitioners. RPPs take place in various fields within and adjacent to social research, including criminology, public health, and education (Coburn & Penuel, 2016, 49; Tseng et al., 2017, 3), the latter of which we focus on here. RPPs in education are especially well-documented in the United States, but exist in other contexts including the UK and Europe (Sjölund et al., 2022, 3-4; McGeown et al., 2023, 12).
 
@@ -21,6 +22,18 @@ RPPs 'have focused on issues as diverse as reducing dropout rates, designing and
 The kind of 'openness' of RPPs parallels that of other participatory approaches. Firstly, RPPs open participation and agency within research to a wider range of societal actors than is typical in research. Secondly, they foster an epistemic openness through which the research process is deliberately rendered permeable to - and recognises the value and importance of - a broader range of forms and sources of knowledge than those that exist solely in academic settings. In RPPs, the value of professional, practitioner and lived experience knowledges - including those of families and communities as well as educational practitioners - are affirmed and foregrounded. As Ghiso et al. note, RPPs require and mobilise 'epistemic humility: ongoing self-reflexivity about the limits of one's own knowledge and assumptions while embracing the importance of multiple perspectives, especially from those who are most directly affected by inequities' (2019, 11). Farrell et al. (2022) and Penuel et al. (2015) reflect these forms of openness in their theorisation of RPPs as boundary work across professional, cultural, and institutional differences, necessitating boundary infrastructures to support these interactions (Farrell et al., 2022, 204, 198). Such infrastructures include boundary practices - 'new routines that bridge the practices of researchers and those of practitioners as they engage in joint work' (Penuel et al., 2015, 190), such as co-design meetings and action-reflection cycles (Farrell et al., 2022, 199).
 
 Benefits of RRPs include opportunities for mutual learning, development and capacity-building among researchers and practitioners (Brown & Allen, 2021, 23; Tseng et al., 2017, 5); increased relevance of research-informed educational interventions (McGeown & Sjölund, 2025, 3) and consequent positive impacts for student learning (Coburn & Penuel, 2016, 50). Challenges include, as Brown and Allen note, 'managing turnover and reorganization of partnership members, communicating [...] findings within "useful" time lines, securing long-term funding, and [...] creating trusting and professional relationships between practitioners and researchers' (2021, 20), especially as priorities and incentives may differ. As with other forms of co-production, RPPs can lack institutional incentives for researchers and require 'increased time, compromises and a willingness to learn and adopt new ways of researching to create quality relationships, characterized by trust and respect, and which navigate potential power imbalances' (McGeown & Sjölund, 2025, 4). Regarding the latter, Yamashiro et al. note that '[m]embers of partnerships do not enter into the RPP with equal amounts of power, influence, interest, prestige, privilege, and resources' (2023, 12), requiring careful work from all partners to ensure power differentials are not reproduced or perpetuated (see also Tanksley & Estrada, 2022). To this end, researchers involved in RPPs emphasise the need to build and maintain trust (Brown & Allen, 2021) and consider positionality in relation to the equity in the collaboration (Denner et al., 2019, 9). Penuel et al. (2015, 193) further note the need for new models of shared funding to ensure all parties can contribute to the development of co-research, while McGeown et al. (2023, 12) highlight the importance of more flexible and responsive university ethics systems to accommodate the non-linearity of research in RPPs.
+
+
+## Further reading / resources
+
+Coburn, C.E. and Penuel, W.R. (2016). 'Research-Practice Partnerships in Education: Outcomes, Dynamics, and Open Questions', *Educational Researcher*, 45(1), 48–54. [https://doi.org/10.3102/0013189X16631750](https://doi.org/10.3102/0013189X16631750)
+
+Desimone, L.M., et al. (2016). ‘Research-Practice: A Practical Conceptual Framework’, *AERA Open*, 2(4). [https://doi.org/10.1177/2332858416679599](https://doi.org/10.1177/2332858416679599)
+
+McGeown, S. and Sjölund, S. (2025). 'Research-Practice Partnerships in Education: Benefits, Challenges, Methodological Considerations and Key Enablers for Change', *British Journal of Educational Psychology*. [https://doi.org/10.1111/bjep.12785](https://doi.org/10.1111/bjep.12785)
+
+Penuel, W.R. et al. (2015). 'Conceptualizing Research-Practice Partnerships as Joint Work at Boundaries', *Journal of Education for Students Placed at Risk*, 20(1–2), 182–197. [https://doi.org/10.1080/10824669.2014.988334](https://doi.org/10.1080/10824669.2014.988334)
+
 
 ## References
 
