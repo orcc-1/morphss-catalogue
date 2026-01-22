@@ -7,6 +7,7 @@ imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: archaeology, digital humanities, history, languages, law, linguistics, politics*
 
 Data papers, sometimes also referred to as data notes or data reports, are defined as 'peer reviewed and citable articles in academic or scholarly journals, whose main content is a description of published research datasets, along with contextual information about the production and the acquisition of the datasets' (Schöpfel et al, 2019, 635-6). As Chavan and Penev note, the purposes of data papers are 'to provide a citable journal publication that brings scholarly credit to data publishers; to describe the data in a structured human-readable form; and to bring the existence of the data to the attention of the scholarly community' (2011, 3). Data papers are a relatively recent development in scholarly communication (Schöpfel et al, 2019, 623). They are published either in dedicated data journals, which may be generalist or discipline-specific, or in 'data sections' of mainstream journals. Examples of (the small number of) dedicated data journals in AHSS include the Journal of Open Humanities Data, the Research Data Journal for the Humanities and Social Sciences and the Journal of Open Archaeology Data.
 
@@ -17,6 +18,20 @@ Various critics note the late adoption of data papers in AHSS relative to other 
 As an open research practice, publishing data papers has a number of benefits. It supports the FAIRness (Findability, Accessibility, Interoperability and Reusability) of datasets by enhancing discoverability and providing rich documentation to support reuse (Schöpfel et al., 2019, 632; Kim, 2020, 17), in addition to fostering 'a more collaborative and open scholarly environment', as Farina et al. (2025, 16) note. The increase in the dataset's visibility, and the recognition data journals offer to data producers also both incentivise good practice around data sharing and promote a more equitable approach to the recognition of contributions to research, in line with the aims of the CRediT taxonomy. As Chavan and Penev observe, data papers 'acknowledge the efforts of all actors involved in data creation, data management and data publishing' (2011, 10). Data papers also contribute to the positioning of datasets as what Callaghan et al. term 'a first class research output that will be available, peer-reviewed, citable, easily discoverable and reusable' (2012, 113). Van Driel et al. further highlight specific benefits for social sciences research in that the increased transparency data papers enable 'is particularly relevant for projects that include rich process-tracing recording methods which are increasingly used in the educational sciences' (2023, 314).
 
 Critics have noted that there are challenges and limitations to the data paper as an open and equitable practice, including the additional workload created for authors and reviewers, and the fact that most are subject to Article Processing Charges (Schöpfel et al., 2019, 626). Their impact has also been questioned, with Kar and Rath noting a 'citation paradox' whereby data papers receive 'fewer citations than traditional articles but [achieve] higher Altmetric attention due to reuse in policy and education' (2025, 351-2). In terms of traction, Wigdorowitz et al. note that the status of dedicated data journals 'has not yet been fully consolidated', making it crucial to 'consider the sustainability of data journals and data papers' (2024, 7). Others have emphasised the importance of raising researchers' awareness of data journals (Walters, 2020, 5), developing more standardised approaches to their content (Candela et al., 2015, 1755; Kim, 2020, 21; Schöpfel et al., 2019, 632), and more widespread adoption of open peer review for these outputs (Wang and Xu, 2025, 2).
+
+
+## Further reading / resources
+
+McGillivray, B. et al. (2022). ‘Deep Impact: A Study on the Impact of Data Papers and Datasets in the Humanities and Social Sciences’, *Publications (Basel)*, 10(4). [https://doi.org/10.3390/publications10040039](https://doi.org/10.3390/publications10040039)
+
+Open Humanities Data Journal. (n.d.). 'Editorial Policies'. Webpage. [https://openhumanitiesdata.metajnl.com/about/editorialpolicies](https://openhumanitiesdata.metajnl.com/about/editorialpolicies)
+
+Schöpfel, J., et al. (2019). 'Data Papers as a New Form of Knowledge Organization in the Field of Research Data', *Knowledge Organization*, 46(8), 622–638. [https://doi.org/10.5771/0943-7444-2019-8-622](https://doi.org/10.5771/0943-7444-2019-8-622). Open access version: [https://hal.univ-lille.fr/hal-02994295v1/file/Schopfel_Farace_Prost_Zane_isko19.pdf](https://hal.univ-lille.fr/hal-02994295v1/file/Schopfel_Farace_Prost_Zane_isko19.pdf)
+
+Walters, W.H. (2020). ‘Data Journals: Incentivizing Data Access and Documentation within the Scholarly Communication System’, *Insights: The UKSG Journal*, 33(1), 1–20. [https://doi.org/10.1629/uksg.510](https://doi.org/10.1629/uksg.510)
+
+Wigdorowitz, M., et al. (2024). ‘It Takes a Village! Editorship, Advocacy, and Research in Running an Open Access Data Journal’, *Publications (Basel)*, 12(3). [https://doi.org/10.3390/publications12030024](https://doi.org/10.3390/publications12030024)
+
 
 ## References
 
