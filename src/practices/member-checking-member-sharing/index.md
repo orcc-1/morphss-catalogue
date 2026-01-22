@@ -1,7 +1,10 @@
 ---
 title: "Member Checking / Member Sharing"
 slug: member-checking-member-sharing
-type: participatory
+types: 
+  - participatory
+  - evidentiary
+discipline: ss
 img: /images/member-checking.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
