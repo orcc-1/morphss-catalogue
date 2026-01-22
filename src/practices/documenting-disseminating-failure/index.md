@@ -2,6 +2,7 @@
 title: "Documenting and Disseminating Failure"
 slug: documenting-disseminating-failure
 type: process
+discipline: ss
 img: /images/failure.jpg
 imgCaption: "caption here"
 lastUpdated: 2026-01-14
