@@ -7,6 +7,7 @@ imgCaption: "caption here"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: education, english, geography, history, languages, politics, sociology*
 
 While historically the term 'co-production' referred to 'professionals and community members working together to improve public services' (McMellon et al., 2024, 807), in a research context, it refers to processes in which researchers collaborate with individuals, communities or organisations outside academia to conduct research that draws on and recognises the value of the lived, embodied, culturally-situated and/or professional knowledges those individuals hold. This usage and understanding of the term is especially prevalent in a UK context (Barke et al., 2020, 169); in disciplinary terms, co-production is predominantly used in the arts, humanities and social sciences as well as adjacent fields such as public health.
 
@@ -19,6 +20,20 @@ Proponents of co-production often stress the importance of co-produced outputs b
 Necessitating researchers cede control over the research process, co-production requires a high degree of flexibility. Initial conceptions of the research must be iteratively revised and reconsidered, and a certain amount of ethical, interpersonal and procedural 'mess' is likely to be encountered - and should be transparently reflected in accounts of the research, as Thomas-Hughes (2018) contends. As Groot et al. (2022) note, relational reflexive work is also needed in order to avoid perpetuating existing forms of dominance, exclusion and epistemic injustice. The democratising impetus of co-production is not a given but is dependent on researchers' ongoing commitment to capacity-building with communities and to the dismantling of knowledge hierarchies (Facer & Enright, 2016, 149; Smith & Wool, 2025, 10), as well as their awareness of the potentially stifling impacts of the neoliberal university (Rowley et al., 2022, 1). The forms of openness expressed in co-production hence entail not only openness to a range of knowledges and social actors in research, but also an embracing of the value of vulnerability and unlearning (Aure et al., 2020, 252).
 
 Co-production entails a number of challenges. As Flinders et al. note, '[i]t is time-consuming, ethically complex, emotionally demanding, inherently unstable, [...] subject to competing demands and expectations, and other scholars (journals, funders, and so on) may not even recognise its outputs as representing "real" research' (2016, 266). The emotional and administrative labour it entails may fall disproportionately on women (Oliver et al., 2019, 5) and early career researchers (Barke et al., 2020), exacerbating inequalities within research communities. The open and emergent nature of co-produced projects also lies in friction with institutional and infrastructural mechanisms such as funding processes and ethics review boards, both of which reward fully-articulated, pre-planned proposals (Facer & Enright, 2016, 111; Campbell & Vanderhoven, 2016, 30). The Co-production Futures Report notes a range of additional challenges including lack of recognition in academia of the value of non-traditional research outputs, barriers to the financial compensation of co-researchers, and issues of intellectual property and data ownership (Vince-Myers, 2025), suggesting the need for infrastructural changes to better facilitate co-produced research (Facer & Enright, 2016; Vince-Myers, 2025).
+
+
+## Further reading / resources
+
+Beacon North East. (2011). *Co-inquiry Toolkit. Community-University Participatory Research Partnerships: Co-inquiry and Related Approaches*. Newcastle: Beacon North East. [https://www.durham.ac.uk/media/durham-university/research-/research-centres/social-justice-amp-community-action-centre-for/documents/toolkits-guides-and-case-studies/Co-Inquiry-Toolkit.pdf](https://www.durham.ac.uk/media/durham-university/research-/research-centres/social-justice-amp-community-action-centre-for/documents/toolkits-guides-and-case-studies/Co-Inquiry-Toolkit.pdf)
+
+Bell, D.M. and Pahl, K. (2018). ‘Co-production: Towards a Utopian Approach’, *International Journal of Social Research Methodology*, 21(1), 105–117. [https://doi.org/10.1080/13645579.2017.1348581](https://doi.org/10.1080/13645579.2017.1348581)
+
+Campbell, H.J. and Vanderhoven, D. (2016). *Knowledge That Matters: Realising the Potential of Co-Production*. Report. Manchester: N8 Research Partnership. [https://eprints.whiterose.ac.uk/id/eprint/99657/1/Final%20Report%20-%20Co-Production%20-%20%202016-01-20.pdf](https://eprints.whiterose.ac.uk/id/eprint/99657/1/Final%20Report%20-%20Co-Production%20-%20%202016-01-20.pdf)
+
+Phillips, L., et al. (2022). ‘Arts-Based Co-production in Participatory Research: Harnessing Creativity in the Tension between Process and Oroduct’, *Evidence & Policy*, 18(2), 391–411. [https://doi.org/10.1332/174426421X16445103995426](https://doi.org/10.1332/174426421X16445103995426)
+
+Selim, G. and Waite, L. (2023). *Co-production Research Toolkit*. Leeds: University of Leeds. [https://doi.org/10.48785/100/198](https://doi.org/10.48785/100/198)
+
 
 ## References
 
