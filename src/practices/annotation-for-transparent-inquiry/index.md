@@ -7,6 +7,7 @@ imgCaption: "Image courtesy Cambridge Archaeology"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
+*Disciplines include: international relations, law, linguistics, politics*
 
 Annotation for Transparent Inquiry (ATI) is a means of augmenting a publication with a 'digital exoskeleton' (Kapiszewski & Karcher, 2021, 474-6) of annotations that provide additional information about the evidence on which statements in the publication are based. Annotations are linked to particular statements or passages, and signalled by a highlight which prompts the interested reader to click and expand the annotation, and where it is available, directly access the supporting data.
 
@@ -32,13 +33,27 @@ Researcher Lindsay Mayka, who used ATI for a project on the human-rights framing
 
 Challenges associated with the use of ATI include the additional time and effort it requires (Kapiszewski & Karcher, 2019, 476; Gerring, 2021, 499). Additional challenges include the need to address journal editors' and peer reviewers' lack of familiarity with the technology (Myrick, 2021, 495), and the fact that, as Karcher and Weber note, the process is currently only enabled by a small number of publishers (2019, n.p.). Broader questions have also been raised by qualitative researchers sceptical of the wider DA-RT initiative in political science, with critics positioning additional transparency mechanisms as an unnecessary addition to existing forms of openness in qualitative research (Cramer, 2018, 10-12) or as incongruent with the objects and processes of knowledge in the discipline (Isaac, 2015, 274, 275-6).
 
+
+## Further reading / resources
+
+Karcher, S. and Weber, N. (2019). ‘Annotation for Transparent Inquiry: Transparent Data and Analysis for Qualitative Research’, *IASSIST Quarterly*, 43(2), 1–9. [https://doi.org/10.29173/iq959](https://doi.org/10.29173/iq959)
+
+Kapiszewski, D., and Karcher, S. (2021). ‘Empowering Transparency: Annotation for Transparent Inquiry (ATI)’, *PS: Political Science & Politics*, 54.3. 473–78. [https://doi.org/10.1017/S1049096521000287](https://doi.org/10.1017/S1049096521000287)
+
+Mayka, L. (2021). ‘Bridging Positivist and Interpretative Approaches through Annotation for Transparent Inquiry’, *PS: Political Science & Politics*, 54(3), 479–482. [https://doi.org/10.1017/S1049096521000184](https://doi.org/10.1017/S1049096521000184)
+
+O'Mahoney, J. (2021). 'A Practical Introduction to Annotating for Transparent Inquiry in Qualitative Research', *Qualitative & Multi-Method Research*, 19(1), 19–23. [https://doi.org/10.5281/zenodo.5495563](https://doi.org/10.5281/zenodo.5495563)
+
+Qualitative Data Repository. (n.d). ‘Generating an Annotation for Transparent Inquiry (ATI) Project’. Webpage. [https://qdr.syr.edu/ati/ati-instructions](https://qdr.syr.edu/ati/ati-instructions)
+
+
 ## References
 
 Cramer, R. (2018). 'Trust, Transparency, and Process', *Qualitative & Multi-Method Research*, 16(2), 10–13. [https://doi.org/10.5281/zenodo.3524289](https://doi.org/10.5281/zenodo.3524289)
 
 Elman C, and Kapiszewski D. (2018). 'The Qualitative Data Repository's Annotation for Transparent Inquiry (ATI) Initiative', *PS: Political Science & Politics*, 51(1), 3-6. [https://doi.org/10.1017/S1049096517001755](https://doi.org/10.1017/S1049096517001755)
 
-Gerring, J. (2021) 'Annotations to ATI', *PS: Political Science & Politics*, 54(3), 496–499. [https://doi.org/10.1017/S104909652100024X](https://doi.org/10.1017/S104909652100024X)
+Gerring, J. (2021). 'Annotations to ATI', *PS: Political Science & Politics*, 54(3), 496–499. [https://doi.org/10.1017/S104909652100024X](https://doi.org/10.1017/S104909652100024X)
 
 Isaac, J.C. (2015). 'For a More Public Political Science', *Perspectives on Politics*, 13(2), 269–283. [https://doi.org/10.1017/S1537592715000031](https://doi.org/10.1017/S1537592715000031)
 
