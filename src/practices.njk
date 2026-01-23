@@ -14,22 +14,35 @@ permalink: /practices/
 <section class="practices-section">
   <h2 class="section-heading">PRACTICES</h2>
   
-  <div class="filter-container">
-    <button class="filter-toggle" id="filterToggle">
-      Filter by type <span class="filter-arrow">▼</span>
-    </button>
-    <div class="filter-dropdown" id="filterDropdown">
-      {% for typeKey, typeData in practiceTypes %}
-      <label class="filter-option">
-        <input type="checkbox" value="{{ typeKey }}" checked>
-        <span class="filter-color" style="background-color: {{ typeData.color }};"></span>
-        {{ typeData.name }}
-      </label>
-      {% endfor %}
-      <div class="filter-actions">
-        <button class="filter-btn" id="selectAll">Select all</button>
-        <button class="filter-btn" id="clearAll">Clear all</button>
+  <div class="filter-row">
+    <div class="filter-container">
+      <button class="filter-toggle" id="filterToggle">
+        Filter by type <span class="filter-arrow">▼</span>
+      </button>
+      <div class="filter-dropdown" id="filterDropdown">
+        {% for typeKey, typeData in practiceTypes %}
+        <label class="filter-option">
+          <input type="checkbox" value="{{ typeKey }}" checked data-filter="type">
+          <span class="filter-color" style="background-color: {{ typeData.color }};"></span>
+          {{ typeData.name }}
+        </label>
+        {% endfor %}
+        <div class="filter-actions">
+          <button class="filter-btn" id="selectAll">Select all</button>
+          <button class="filter-btn" id="clearAll">Clear all</button>
+        </div>
       </div>
+    </div>
+    
+    <div class="discipline-filters">
+      <label class="discipline-filter-option">
+        <input type="checkbox" value="ah" checked data-filter="discipline" id="filterAh">
+        Arts and Humanities
+      </label>
+      <label class="discipline-filter-option">
+        <input type="checkbox" value="ss" checked data-filter="discipline" id="filterSs">
+        Social Sciences
+      </label>
     </div>
   </div>
   
@@ -37,6 +50,7 @@ permalink: /practices/
     {% for practice in collections.practices %}
     {% set exampleCount = collections.outputs | getOutputsByPractice(practice.data.slug) | length %}
     {% set types = practice.data.types if practice.data.types else ([practice.data.type] if practice.data.type else []) %}
+    {% set disciplines = practice.data.disciplines if practice.data.disciplines else ([practice.data.discipline] if practice.data.discipline else []) %}
     {% set typeColors = [] %}
     {% for t in types %}
       {% if practiceTypes[t] %}
@@ -57,7 +71,7 @@ permalink: /practices/
     {% else %}
       {% set stripStyle = '#ccc' %}
     {% endif %}
-    <a href="{{ practice.url }}" class="practice-card" style="--type-colors: {{ stripStyle }};" data-type="{{ types | join(',') }}">
+    <a href="{{ practice.url }}" class="practice-card" style="--type-colors: {{ stripStyle }};" data-type="{{ types | join(',') }}" data-discipline="{{ disciplines | join(',') }}">
       <span class="example-count">{{ exampleCount }} example{% if exampleCount != 1 %}s{% endif %}</span>
       <h3>{{ practice.data.title }}</h3>
     </a>
@@ -69,10 +83,26 @@ permalink: /practices/
 (function() {
   const toggle = document.getElementById('filterToggle');
   const dropdown = document.getElementById('filterDropdown');
-  const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]');
+  const typeCheckboxes = dropdown.querySelectorAll('input[data-filter="type"]');
+  const disciplineCheckboxes = document.querySelectorAll('input[data-filter="discipline"]');
   const cards = document.querySelectorAll('.practice-card');
   const selectAll = document.getElementById('selectAll');
   const clearAll = document.getElementById('clearAll');
+  
+  // Parse URL parameters on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  const disciplineParam = urlParams.get('discipline');
+  
+  if (disciplineParam) {
+    // Uncheck all discipline checkboxes first
+    disciplineCheckboxes.forEach(cb => cb.checked = false);
+    // Check only the specified discipline(s)
+    const disciplines = disciplineParam.split(',');
+    disciplines.forEach(d => {
+      const cb = document.querySelector(`input[data-filter="discipline"][value="${d}"]`);
+      if (cb) cb.checked = true;
+    });
+  }
   
   // Toggle dropdown
   toggle.addEventListener('click', function() {
@@ -90,33 +120,48 @@ permalink: /practices/
   
   // Filter function
   function filterPractices() {
-    const selectedTypes = Array.from(checkboxes)
+    const selectedTypes = Array.from(typeCheckboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+    
+    const selectedDisciplines = Array.from(disciplineCheckboxes)
       .filter(cb => cb.checked)
       .map(cb => cb.value);
     
     cards.forEach(card => {
-      const cardTypes = card.dataset.type.split(',');
-      const hasMatch = cardTypes.some(type => selectedTypes.includes(type));
-      card.style.display = hasMatch ? '' : 'none';
+      const cardTypes = card.dataset.type.split(',').filter(t => t);
+      const cardDisciplines = card.dataset.discipline.split(',').filter(d => d);
+      
+      const hasTypeMatch = cardTypes.some(type => selectedTypes.includes(type));
+      const hasDisciplineMatch = cardDisciplines.some(disc => selectedDisciplines.includes(disc));
+      
+      card.style.display = (hasTypeMatch && hasDisciplineMatch) ? '' : 'none';
     });
   }
   
-  // Add change listeners to checkboxes
-  checkboxes.forEach(cb => {
+  // Add change listeners to all checkboxes
+  typeCheckboxes.forEach(cb => {
     cb.addEventListener('change', filterPractices);
   });
   
-  // Select all
+  disciplineCheckboxes.forEach(cb => {
+    cb.addEventListener('change', filterPractices);
+  });
+  
+  // Select all (types only)
   selectAll.addEventListener('click', function() {
-    checkboxes.forEach(cb => cb.checked = true);
+    typeCheckboxes.forEach(cb => cb.checked = true);
     filterPractices();
   });
   
-  // Clear all
+  // Clear all (types only)
   clearAll.addEventListener('click', function() {
-    checkboxes.forEach(cb => cb.checked = false);
+    typeCheckboxes.forEach(cb => cb.checked = false);
     filterPractices();
   });
+  
+  // Initial filter on page load
+  filterPractices();
 })();
 </script>
 

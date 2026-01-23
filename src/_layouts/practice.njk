@@ -46,6 +46,32 @@ layout: base.njk
     </figure>
     {% endif %}
     
+    {% set ahCount = collections.practices | countByDiscipline('ah') %}
+    {% set ssCount = collections.practices | countByDiscipline('ss') %}
+    {% set totalCount = collections.practices | countAll %}
+    {% set practiceDisciplines = disciplines if disciplines else ([discipline] if discipline else []) %}
+    {% set hasAh = 'ah' in practiceDisciplines %}
+    {% set hasSs = 'ss' in practiceDisciplines %}
+    
+    <div class="discipline-link">
+      {% if hasAh and hasSs %}
+        <a href="/practices/?discipline=ah,ss">
+          <span class="discipline-count">{{ totalCount - 1 }}</span>
+          <span class="discipline-text">other open research practices in Arts, Humanities, and Social Sciences</span>
+        </a>
+      {% elif hasAh %}
+        <a href="/practices/?discipline=ah">
+          <span class="discipline-count">{{ ahCount - 1 }}</span>
+          <span class="discipline-text">other open research practices in Arts and Humanities</span>
+        </a>
+      {% elif hasSs %}
+        <a href="/practices/?discipline=ss">
+          <span class="discipline-count">{{ ssCount - 1 }}</span>
+          <span class="discipline-text">other open research practices in Social Sciences</span>
+        </a>
+      {% endif %}
+    </div>
+    
     <section class="examples">
       <h2>EXAMPLES</h2>
       {% set relatedOutputs = collections.outputs | getOutputsByPractice(slug) %}

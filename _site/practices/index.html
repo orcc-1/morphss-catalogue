@@ -18,7 +18,7 @@
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">
-        <a href="/">The MORPHSS Catalogue of Open Research Practices in the Arts, Humanities, and Social Sciences</a>
+        <a href="/">Catalogue of Open Research Practices in the Arts, Humanities, and Social Sciences</a>
       </h1>
     </div>
   </header>
@@ -35,52 +35,65 @@
 <section class="practices-section">
   <h2 class="section-heading">PRACTICES</h2>
   
-  <div class="filter-container">
-    <button class="filter-toggle" id="filterToggle">
-      Filter by type <span class="filter-arrow">▼</span>
-    </button>
-    <div class="filter-dropdown" id="filterDropdown">
-      
-      <label class="filter-option">
-        <input type="checkbox" value="participatory" checked>
-        <span class="filter-color" style="background-color: #E8F4E8;"></span>
-        Participatory Openness
-      </label>
-      
-      <label class="filter-option">
-        <input type="checkbox" value="epistemic" checked>
-        <span class="filter-color" style="background-color: #EDE7F6;"></span>
-        Epistemic Openness
-      </label>
-      
-      <label class="filter-option">
-        <input type="checkbox" value="process" checked>
-        <span class="filter-color" style="background-color: #E3F2FD;"></span>
-        Process Openness
-      </label>
-      
-      <label class="filter-option">
-        <input type="checkbox" value="evidentiary" checked>
-        <span class="filter-color" style="background-color: #FFF3E0;"></span>
-        Evidentiary Openness
-      </label>
-      
-      <label class="filter-option">
-        <input type="checkbox" value="availability" checked>
-        <span class="filter-color" style="background-color: #FFF8E1;"></span>
-        Availability of Outputs
-      </label>
-      
-      <label class="filter-option">
-        <input type="checkbox" value="accessible-communication" checked>
-        <span class="filter-color" style="background-color: #FCE4EC;"></span>
-        Accessible Communication of Research
-      </label>
-      
-      <div class="filter-actions">
-        <button class="filter-btn" id="selectAll">Select all</button>
-        <button class="filter-btn" id="clearAll">Clear all</button>
+  <div class="filter-row">
+    <div class="filter-container">
+      <button class="filter-toggle" id="filterToggle">
+        Filter by type <span class="filter-arrow">▼</span>
+      </button>
+      <div class="filter-dropdown" id="filterDropdown">
+        
+        <label class="filter-option">
+          <input type="checkbox" value="participatory" checked data-filter="type">
+          <span class="filter-color" style="background-color: #E8F4E8;"></span>
+          Participatory Openness
+        </label>
+        
+        <label class="filter-option">
+          <input type="checkbox" value="epistemic" checked data-filter="type">
+          <span class="filter-color" style="background-color: #EDE7F6;"></span>
+          Epistemic Openness
+        </label>
+        
+        <label class="filter-option">
+          <input type="checkbox" value="process" checked data-filter="type">
+          <span class="filter-color" style="background-color: #E3F2FD;"></span>
+          Process Openness
+        </label>
+        
+        <label class="filter-option">
+          <input type="checkbox" value="evidentiary" checked data-filter="type">
+          <span class="filter-color" style="background-color: #FFF3E0;"></span>
+          Evidentiary Openness
+        </label>
+        
+        <label class="filter-option">
+          <input type="checkbox" value="availability" checked data-filter="type">
+          <span class="filter-color" style="background-color: #FFF8E1;"></span>
+          Availability of Outputs
+        </label>
+        
+        <label class="filter-option">
+          <input type="checkbox" value="accessible-communication" checked data-filter="type">
+          <span class="filter-color" style="background-color: #FCE4EC;"></span>
+          Accessible Communication of Research
+        </label>
+        
+        <div class="filter-actions">
+          <button class="filter-btn" id="selectAll">Select all</button>
+          <button class="filter-btn" id="clearAll">Clear all</button>
+        </div>
       </div>
+    </div>
+    
+    <div class="discipline-filters">
+      <label class="discipline-filter-option">
+        <input type="checkbox" value="ah" checked data-filter="discipline" id="filterAh">
+        Arts and Humanities
+      </label>
+      <label class="discipline-filter-option">
+        <input type="checkbox" value="ss" checked data-filter="discipline" id="filterSs">
+        Social Sciences
+      </label>
     </div>
   </div>
   
@@ -90,14 +103,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/academic-scholarly-podcasting/" class="practice-card" style="--type-colors: #FCE4EC;" data-type="accessible-communication">
+    <a href="/practices/academic-scholarly-podcasting/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF8E1 0%, #FFF8E1 50%, #FCE4EC 50%, #FCE4EC 100%);" data-type="availability,accessible-communication" data-discipline="ah,ss">
       <span class="example-count">11 examples</span>
       <h3>Academic/Scholarly Podcasting</h3>
     </a>
@@ -106,14 +136,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/annotation-for-transparent-inquiry/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/annotation-for-transparent-inquiry/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 50%, #FFF3E0 50%, #FFF3E0 100%);" data-type="process,evidentiary" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Annotation for Transparent Inquiry</h3>
     </a>
@@ -122,14 +169,40 @@
     
     
     
+    
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/applying-care-principles-to-indigenous-material/" class="practice-card" style="--type-colors: #EDE7F6;" data-type="epistemic">
+    <a href="/practices/applying-care-principles-to-indigenous-material/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 33.333333333333336%, #EDE7F6 33.333333333333336%, #EDE7F6 66.66666666666667%, #FFF3E0 66.66666666666667%, #FFF3E0 100%);" data-type="participatory,epistemic,evidentiary" data-discipline="ah,ss">
       <span class="example-count">2 examples</span>
       <h3>Applying the CARE Principles to Data from Marginalised Communities</h3>
     </a>
@@ -138,14 +211,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/authorship-collective-collaborative-communal/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/authorship-collective-collaborative-communal/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #EDE7F6 50%, #EDE7F6 100%);" data-type="participatory,epistemic" data-discipline="ah">
       <span class="example-count">12 examples</span>
       <h3>Authorship (Collective, Collaborative or Communal)</h3>
     </a>
@@ -154,14 +244,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/co-production/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/co-production/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #EDE7F6 50%, #EDE7F6 100%);" data-type="participatory,epistemic" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Co-production</h3>
     </a>
@@ -170,14 +277,40 @@
     
     
     
+    
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/collaborative-translation/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/collaborative-translation/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 33.333333333333336%, #EDE7F6 33.333333333333336%, #EDE7F6 66.66666666666667%, #FCE4EC 66.66666666666667%, #FCE4EC 100%);" data-type="participatory,epistemic,accessible-communication" data-discipline="ah,ss">
       <span class="example-count">7 examples</span>
       <h3>Collaborative Translation (Co-translation, Collaborative translation, Community translation, Collective translation, or Commoning translation)</h3>
     </a>
@@ -186,14 +319,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/community-based-participatory-research/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/community-based-participatory-research/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #EDE7F6 50%, #EDE7F6 100%);" data-type="participatory,epistemic" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Community-Based Participatory Research</h3>
     </a>
@@ -202,14 +352,40 @@
     
     
     
+    
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/data-papers/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/data-papers/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 33.333333333333336%, #FFF3E0 33.333333333333336%, #FFF3E0 66.66666666666667%, #FFF8E1 66.66666666666667%, #FFF8E1 100%);" data-type="process,evidentiary,availability" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Data Papers</h3>
     </a>
@@ -218,14 +394,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/digital-enumerative-bibliography/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/digital-enumerative-bibliography/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="evidentiary,availability" data-discipline="ah">
       <span class="example-count">3 examples</span>
       <h3>Digital Enumerative Bibliography</h3>
     </a>
@@ -234,6 +427,7 @@
     
     
     
+    
       
         
       
@@ -241,7 +435,7 @@
     
       
     
-    <a href="/practices/documenting-disseminating-failure/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/documenting-disseminating-failure/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Documenting and Disseminating Failure</h3>
     </a>
@@ -252,8 +446,47 @@
     
     
       
+        
+      
     
-    <a href="/practices/experimental-longform-publishing/" class="practice-card" style="--type-colors: #ccc;" data-type="">
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+    
+      
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
+    
+    <a href="/practices/experimental-longform-publishing/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 25%, #EDE7F6 25%, #EDE7F6 50%, #E3F2FD 50%, #E3F2FD 75%, #FFF8E1 75%, #FFF8E1 100%);" data-type="participatory,epistemic,process,availability" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Experimental Longform Publishing (Multivocal, Combinatorial, or Epistolary Monographs)</h3>
     </a>
@@ -262,14 +495,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/linked-open-data/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/linked-open-data/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="evidentiary,availability" data-discipline="ah,ss">
       <span class="example-count">10 examples</span>
       <h3>Linked Open Data</h3>
     </a>
@@ -278,14 +528,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/member-checking-member-sharing/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/member-checking-member-sharing/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #FFF3E0 50%, #FFF3E0 100%);" data-type="participatory,evidentiary" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Member Checking / Member Sharing</h3>
     </a>
@@ -294,14 +561,40 @@
     
     
     
+    
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/open-documentation-of-creative-methods/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/open-documentation-of-creative-methods/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 33.333333333333336%, #FFF3E0 33.333333333333336%, #FFF3E0 66.66666666666667%, #FFF8E1 66.66666666666667%, #FFF8E1 100%);" data-type="process,evidentiary,availability" data-discipline="ah">
       <span class="example-count">11 examples</span>
       <h3>Open Documentation of Creative Methods</h3>
     </a>
@@ -310,14 +603,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/open-documentation-of-methods/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/open-documentation-of-methods/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="process,availability" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Open Documentation of Methods</h3>
     </a>
@@ -326,6 +636,7 @@
     
     
     
+    
       
         
       
@@ -333,7 +644,7 @@
     
       
     
-    <a href="/practices/open-longform-scholarship/" class="practice-card" style="--type-colors: #FFF8E1;" data-type="availability">
+    <a href="/practices/open-longform-scholarship/" class="practice-card" style="--type-colors: #FFF8E1;" data-type="availability" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Open Longform Scholarship</h3>
     </a>
@@ -342,14 +653,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/open-materials/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/open-materials/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="process,availability" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Open Materials</h3>
     </a>
@@ -358,14 +686,40 @@
     
     
     
+    
+      
+        
+      
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/open-peer-review/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/open-peer-review/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 33.333333333333336%, #E3F2FD 33.333333333333336%, #E3F2FD 66.66666666666667%, #FFF8E1 66.66666666666667%, #FFF8E1 100%);" data-type="participatory,process,availability" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Open Peer Review</h3>
     </a>
@@ -374,14 +728,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/participatory-action-research/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/participatory-action-research/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #EDE7F6 50%, #EDE7F6 100%);" data-type="participatory,epistemic" data-discipline="ah,ss">
       <span class="example-count">4 examples</span>
       <h3>Participatory Action Research (PAR)</h3>
     </a>
@@ -390,6 +761,7 @@
     
     
     
+    
       
         
       
@@ -397,7 +769,7 @@
     
       
     
-    <a href="/practices/positionality-foregrounding/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/positionality-foregrounding/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Positionality (Foregrounding of)</h3>
     </a>
@@ -406,14 +778,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/pre-registering-qualitative-research/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/pre-registering-qualitative-research/" class="practice-card" style="--type-colors: linear-gradient(to right, #E3F2FD 0%, #E3F2FD 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="process,availability" data-discipline="ss">
       <span class="example-count">4 examples</span>
       <h3>Pre-registering Qualitative Research</h3>
     </a>
@@ -422,6 +811,7 @@
     
     
     
+    
       
         
       
@@ -429,7 +819,7 @@
     
       
     
-    <a href="/practices/preprints-working-papers/" class="practice-card" style="--type-colors: #FFF8E1;" data-type="availability">
+    <a href="/practices/preprints-working-papers/" class="practice-card" style="--type-colors: #FFF8E1;" data-type="availability" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Preprints and Working Papers</h3>
     </a>
@@ -438,14 +828,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/public-scholarship/" class="practice-card" style="--type-colors: #FCE4EC;" data-type="accessible-communication">
+    <a href="/practices/public-scholarship/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF8E1 0%, #FFF8E1 50%, #FCE4EC 50%, #FCE4EC 100%);" data-type="availability,accessible-communication" data-discipline="ah,ss">
       <span class="example-count">17 examples</span>
       <h3>Public Scholarship</h3>
     </a>
@@ -454,6 +861,7 @@
     
     
     
+    
       
         
       
@@ -461,7 +869,7 @@
     
       
     
-    <a href="/practices/reflexivity/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process">
+    <a href="/practices/reflexivity/" class="practice-card" style="--type-colors: #E3F2FD;" data-type="process" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Reflexivity</h3>
     </a>
@@ -470,14 +878,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/research-practice-partnerships/" class="practice-card" style="--type-colors: #E8F4E8;" data-type="participatory">
+    <a href="/practices/research-practice-partnerships/" class="practice-card" style="--type-colors: linear-gradient(to right, #E8F4E8 0%, #E8F4E8 50%, #EDE7F6 50%, #EDE7F6 100%);" data-type="participatory,epistemic" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Research-Practice Partnerships</h3>
     </a>
@@ -486,14 +911,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/sharing-creative-practice-outputs/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/sharing-creative-practice-outputs/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="evidentiary,availability" data-discipline="ah">
       <span class="example-count">12 examples</span>
       <h3>Sharing Creative Practice Outputs</h3>
     </a>
@@ -502,6 +944,11 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
@@ -523,9 +970,14 @@
         
         
       
+        
+        
+        
+        
+      
       
     
-    <a href="/practices/sharing-creatively-refigured-data/" class="practice-card" style="--type-colors: linear-gradient(to right, #FCE4EC 0%, #FCE4EC 50%, #FFF3E0 50%, #FFF3E0 100%);" data-type="accessible-communication,evidentiary">
+    <a href="/practices/sharing-creatively-refigured-data/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 33.333333333333336%, #FFF8E1 33.333333333333336%, #FFF8E1 66.66666666666667%, #FCE4EC 66.66666666666667%, #FCE4EC 100%);" data-type="evidentiary,availability,accessible-communication" data-discipline="ss">
       <span class="example-count">3 examples</span>
       <h3>Sharing Creatively Refigured Data</h3>
     </a>
@@ -534,14 +986,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/sharing-ethically-fabricated-data/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/sharing-ethically-fabricated-data/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="evidentiary,availability" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Sharing Ethically Fabricated Data</h3>
     </a>
@@ -550,14 +1019,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/sharing-qualitative-data/" class="practice-card" style="--type-colors: #FFF3E0;" data-type="evidentiary">
+    <a href="/practices/sharing-qualitative-data/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF3E0 0%, #FFF3E0 50%, #FFF8E1 50%, #FFF8E1 100%);" data-type="evidentiary,availability" data-discipline="ah,ss">
       <span class="example-count">3 examples</span>
       <h3>Sharing Qualitative Data</h3>
     </a>
@@ -566,14 +1052,31 @@
     
     
     
+    
+      
+        
+      
+    
       
         
       
     
     
       
+      
+        
+        
+        
+        
+      
+        
+        
+        
+        
+      
+      
     
-    <a href="/practices/virtual-exhibitions/" class="practice-card" style="--type-colors: #FCE4EC;" data-type="accessible-communication">
+    <a href="/practices/virtual-exhibitions/" class="practice-card" style="--type-colors: linear-gradient(to right, #FFF8E1 0%, #FFF8E1 50%, #FCE4EC 50%, #FCE4EC 100%);" data-type="availability,accessible-communication" data-discipline="ah">
       <span class="example-count">15 examples</span>
       <h3>Virtual Exhibitions</h3>
     </a>
@@ -585,10 +1088,26 @@
 (function() {
   const toggle = document.getElementById('filterToggle');
   const dropdown = document.getElementById('filterDropdown');
-  const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]');
+  const typeCheckboxes = dropdown.querySelectorAll('input[data-filter="type"]');
+  const disciplineCheckboxes = document.querySelectorAll('input[data-filter="discipline"]');
   const cards = document.querySelectorAll('.practice-card');
   const selectAll = document.getElementById('selectAll');
   const clearAll = document.getElementById('clearAll');
+  
+  // Parse URL parameters on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  const disciplineParam = urlParams.get('discipline');
+  
+  if (disciplineParam) {
+    // Uncheck all discipline checkboxes first
+    disciplineCheckboxes.forEach(cb => cb.checked = false);
+    // Check only the specified discipline(s)
+    const disciplines = disciplineParam.split(',');
+    disciplines.forEach(d => {
+      const cb = document.querySelector(`input[data-filter="discipline"][value="${d}"]`);
+      if (cb) cb.checked = true;
+    });
+  }
   
   // Toggle dropdown
   toggle.addEventListener('click', function() {
@@ -606,33 +1125,48 @@
   
   // Filter function
   function filterPractices() {
-    const selectedTypes = Array.from(checkboxes)
+    const selectedTypes = Array.from(typeCheckboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+    
+    const selectedDisciplines = Array.from(disciplineCheckboxes)
       .filter(cb => cb.checked)
       .map(cb => cb.value);
     
     cards.forEach(card => {
-      const cardTypes = card.dataset.type.split(',');
-      const hasMatch = cardTypes.some(type => selectedTypes.includes(type));
-      card.style.display = hasMatch ? '' : 'none';
+      const cardTypes = card.dataset.type.split(',').filter(t => t);
+      const cardDisciplines = card.dataset.discipline.split(',').filter(d => d);
+      
+      const hasTypeMatch = cardTypes.some(type => selectedTypes.includes(type));
+      const hasDisciplineMatch = cardDisciplines.some(disc => selectedDisciplines.includes(disc));
+      
+      card.style.display = (hasTypeMatch && hasDisciplineMatch) ? '' : 'none';
     });
   }
   
-  // Add change listeners to checkboxes
-  checkboxes.forEach(cb => {
+  // Add change listeners to all checkboxes
+  typeCheckboxes.forEach(cb => {
     cb.addEventListener('change', filterPractices);
   });
   
-  // Select all
+  disciplineCheckboxes.forEach(cb => {
+    cb.addEventListener('change', filterPractices);
+  });
+  
+  // Select all (types only)
   selectAll.addEventListener('click', function() {
-    checkboxes.forEach(cb => cb.checked = true);
+    typeCheckboxes.forEach(cb => cb.checked = true);
     filterPractices();
   });
   
-  // Clear all
+  // Clear all (types only)
   clearAll.addEventListener('click', function() {
-    checkboxes.forEach(cb => cb.checked = false);
+    typeCheckboxes.forEach(cb => cb.checked = false);
     filterPractices();
   });
+  
+  // Initial filter on page load
+  filterPractices();
 })();
 </script>
 

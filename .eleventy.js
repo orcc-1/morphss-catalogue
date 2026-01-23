@@ -42,6 +42,20 @@ module.exports = function(eleventyConfig) {
     return practice ? practice.data.type : null;
   });
   
+  // Filter to count practices by discipline
+  eleventyConfig.addFilter("countByDiscipline", function(practices, discipline) {
+    return practices.filter(p => {
+      // Handle both disciplines (array) and discipline (singular)
+      const disciplines = p.data.disciplines || (p.data.discipline ? [p.data.discipline] : []);
+      return disciplines.includes(discipline);
+    }).length;
+  });
+  
+  // Filter to count all practices
+  eleventyConfig.addFilter("countAll", function(practices) {
+    return practices.length;
+  });
+  
   // Filter to format date
   eleventyConfig.addFilter("formatDate", function(dateStr) {
     const date = new Date(dateStr);

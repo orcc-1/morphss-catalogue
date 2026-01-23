@@ -257,6 +257,40 @@ main {
   background: #f5f5f5;
 }
 
+/* Filter row layout */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.filter-row .filter-container {
+  margin-bottom: 0;
+}
+
+/* Discipline filters */
+.discipline-filters {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  height: 36px; /* Match the filter toggle button height */
+}
+
+.discipline-filter-option {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.discipline-filter-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
 /* Types of Openness Grid */
 .types-section {
   margin-top: var(--spacing-xxl);
@@ -605,6 +639,51 @@ main {
   color: var(--color-text-light);
   margin-top: var(--spacing-sm);
   font-style: italic;
+}
+
+/* Discipline link above examples */
+.discipline-link {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.discipline-link a {
+  color: var(--color-text);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.discipline-link a::after {
+  content: '>>';
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.discipline-link a:hover {
+  color: var(--color-link);
+}
+
+.discipline-link a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.discipline-count {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.discipline-text {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .examples h2 {
