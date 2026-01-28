@@ -3,6 +3,8 @@ title: "Documenting and Disseminating Failure"
 slug: documenting-disseminating-failure
 type: process
 discipline: ss
+img: /images/Documenting-failure.png
+imgCaption: "Documenting and disseminating failure"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
