@@ -7,8 +7,8 @@ types:
 disciplines:
   - ah
   - ss
-img: /images/linked-open-data.jpg
-imgCaption: "caption here!"
+img: /images/Linked-open-data.png
+imgCaption: "Linked open data"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

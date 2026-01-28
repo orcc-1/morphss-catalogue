@@ -5,6 +5,8 @@ types:
   - evidentiary
   - availability
 discipline: ah
+img: /images/creative-outputs.png
+imgCaption: "Sharing creative practice outputs"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

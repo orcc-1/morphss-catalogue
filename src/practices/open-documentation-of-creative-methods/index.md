@@ -6,6 +6,8 @@ types:
   - evidentiary
   - availability
 discipline: ah
+img: /images/creative-methods.png
+imgCaption: "Documentation of creative methods"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---

@@ -3,6 +3,8 @@ title: "Reflexivity"
 slug: reflexivity
 type: process
 discipline: ss
+img: /images/Reflexivity.png
+imgCaption: "Reflective journalling"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
