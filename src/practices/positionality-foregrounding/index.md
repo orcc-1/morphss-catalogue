@@ -3,6 +3,8 @@ title: "Positionality (Foregrounding of)"
 slug: positionality-foregrounding
 type: process
 discipline: ss
+img: /images/Positionality.png
+imgCaption: "Foregrounding positionality"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
