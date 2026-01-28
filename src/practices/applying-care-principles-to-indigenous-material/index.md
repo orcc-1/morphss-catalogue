@@ -8,8 +8,6 @@ types:
 disciplines:
   - ah
   - ss
-img: /images/care-principles.jpg
-imgCaption: "Image Courtesy: Canva"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
