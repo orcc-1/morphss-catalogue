@@ -7,6 +7,8 @@ types:
 disciplines:
   -  ah
   -  ss
+img: /images/Public-scholarship.png
+imgCaption: "Public scholarship"
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
