@@ -4,8 +4,7 @@ slug: member-checking-member-sharing
 types: 
   - participatory
   - evidentiary
-discipline:
-  - ss
+discipline: ss
 lastUpdated: 2026-01-14
 layout: practice.njk
 ---
