@@ -79,6 +79,7 @@ layout: base.njk
         <ul class="output-list">
         {% for output in relatedOutputs %}
           <li class="output-item">
+            {% if output.data.comment %}<span class="output-tooltip">{{ output.data.comment }}</span>{% endif %}
             <p class="citation">{{ output.data.citation | safe }}</p>
             {% if output.data.doi %}
             <p class="doi"><a href="https://doi.org/{{ output.data.doi }}">https://doi.org/{{ output.data.doi }}</a>.</p>
